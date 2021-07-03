@@ -1,0 +1,146 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  min-height: 70px;
+}
+
+nav .logo {
+  height: 50px;
+}
+
+nav .nav-item {
+  margin: 0 10px;
+}
+
+nav .nav-item .nav-link {
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+
+nav .nav-item .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+nav .nav-item .active {
+  color: #0d6efd !important;
+}
+
+nav .nav-item .btn {
+  margin-left: 40px;
+}
+
+header {
+  height: 660px;
+  background-image: url("../assets/img/bg.jpg");
+}
+
+header .content {
+  margin-top: 180px;
+}
+
+header h1 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+header p {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+header .button-container {
+  margin-top: 40px;
+}
+
+header .button-container .info-btn {
+  margin-right: 20px;
+}
+
+.section-sejarah {
+  margin-top: 100px;
+}
+
+.section-sejarah img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.section-sejarah p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-sejarah button {
+  width: 150px;
+  height: 45px;
+}
+
+.section-vismistu {
+  margin-top: 100px;
+}
+
+.section-vismistu .card .ic {
+  width: 70px;
+  height: 70px;
+}
+
+.section-vismistu .card h2 {
+  margin-top: 4px;
+  font-size: 24px;
+}
+
+.section-vismistu .card p {
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.section-vismistu .card .svg-alternative {
+  display: none;
+}
+
+.section-vismistu .card:hover {
+  background-color: #0d6efd !important;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  cursor: context-menu;
+}
+
+.section-vismistu .card:hover .svg-one {
+  display: none;
+}
+
+.section-vismistu .card:hover .svg-alternative {
+  display: block;
+}
+
+.section-vismistu .card:hover h2 {
+  color: #ececec;
+}
+
+.section-vismistu .card:hover p {
+  color: #ececec;
+}
+
+.section-jurusan {
+  margin-top: 100px;
+  padding-top: 60px;
+  background-color: #F8F8F8;
+}
+
+.section-jurusan .card {
+  margin-top: 60px;
+  height: 215px;
+}
+
+.section-jurusan .card .card-title {
+  font-size: 24px;
+}
+
+.section-jurusan .card .card-text {
+  font-size: 18px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,149 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    min-height: 70px;
+    
+    .logo {
+        height: 50px;
+    }
+
+    .nav-item {
+        margin: 0 10px;
+        
+        .nav-link {
+            font-weight: 400;
+            letter-spacing: 1px;
+            color: rgba($color: #000000, $alpha: 0.9) !important;
+            
+            &:hover {
+                color: rgba($color: #0d6efd, $alpha: 1.0) !important;
+            }
+        }
+        
+        .active {
+            color: rgba($color: #0d6efd, $alpha: 1.0) !important;
+        }
+
+        
+
+        .btn {
+            margin-left: 40px;
+        }
+    }
+}
+
+header {
+    height: 660px;
+    background-image: url('../assets/img/bg.jpg');
+
+    .content {
+        margin-top: 180px;
+    }
+
+    h1 {
+        font-size: 64px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 300;
+    }
+
+    .button-container {
+        margin-top: 40px;
+        .info-btn {
+            margin-right: 20px;
+        }
+    }
+}
+
+.section-sejarah {
+    margin-top: 100px;
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    button {
+        width: 150px;
+        height: 45px;
+    }
+}
+
+.section-vismistu {
+    margin-top: 100px;
+
+    
+
+    .card {
+        .ic {
+            width: 70px;
+            height: 70px;
+        }
+
+        h2 {
+            margin-top: 4px;
+            font-size: 24px;
+        }
+
+        p {
+            margin-top: 24px;
+            font-size: 18px;
+        }
+        .svg-alternative {
+            display: none;
+        }
+
+        &:hover {
+            background-color: #0d6efd !important;
+            transition: all 0.8s;
+            
+            .svg-one {
+                display: none;
+            }
+
+            .svg-alternative{
+                display: block;
+            }
+
+            h2 {
+                color: #ececec;
+            }
+
+            p {
+                color: #ececec;
+            }
+            
+            cursor: context-menu;
+        }    
+    }
+}
+
+.section-jurusan {
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: #F8F8F8;
+
+    .card {
+        margin-top: 60px;
+        height: 215px;
+
+        .card-title {
+            font-size: 24px;
+        }
+
+        .card-text {
+            font-size: 18px;
+        }
+    }
+}
