@@ -24,12 +24,23 @@ nav .nav-item .nav-link:hover {
   color: #0d6efd !important;
 }
 
+nav .nav-item .dropdown-item {
+  margin-top: 10px;
+}
+
 nav .nav-item .active {
   color: #0d6efd !important;
 }
 
 nav .nav-item .btn {
   margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-item .btn {
+    margin-left: 0;
+    margin-top: 10px;
+  }
 }
 
 header {
@@ -56,7 +67,32 @@ header .button-container {
 }
 
 header .button-container .info-btn {
+  width: 160px;
+  height: 40px;
   margin-right: 20px;
+}
+
+header .button-container .profile-btn {
+  width: 160px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header p {
+    font-size: 18px;
+  }
+  header .info-btn {
+    width: 100px;
+    height: 40px;
+  }
+  header .profile-btn {
+    width: 100px;
+    height: 40px;
+  }
 }
 
 .section-sejarah {
@@ -77,6 +113,19 @@ header .button-container .info-btn {
 .section-sejarah button {
   width: 150px;
   height: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .section-sejarah {
+    margin-top: 60px;
+  }
+  .section-sejarah p {
+    font-size: 16px;
+  }
+  .section-sejarah button {
+    width: 140px;
+    height: 40px;
+  }
 }
 
 .section-vismistu {
@@ -125,22 +174,121 @@ header .button-container .info-btn {
   color: #ececec;
 }
 
+@media screen and (max-width: 768px) {
+  .section-vismistu {
+    margin-top: 80px;
+  }
+}
+
 .section-jurusan {
   margin-top: 100px;
-  padding-top: 60px;
   background-color: #F8F8F8;
 }
 
-.section-jurusan .card {
-  margin-top: 60px;
-  height: 215px;
+.section-jurusan .card .card-img-top {
+  height: 70px;
 }
 
-.section-jurusan .card .card-title {
-  font-size: 24px;
-}
-
-.section-jurusan .card .card-text {
+.section-jurusan .card .card-body {
   font-size: 18px;
+}
+
+.section-berita .card .card-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.section-berita .card .card-title:hover {
+  color: #0d6efd;
+}
+
+.section-berita .card .card-body {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.section-berita .card .footer .author img, .section-berita .card .footer .calendar img {
+  width: 14px;
+}
+
+.section-berita .card .footer .author p, .section-berita .card .footer .calendar p {
+  margin-left: 8px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.section-berita .lainya-btn {
+  margin: 100px 0;
+  width: 160px;
+  height: 40px;
+}
+
+footer {
+  background-color: #133A9E;
+  min-height: 380px;
+}
+
+footer .logo {
+  height: 100px;
+}
+
+footer .jargon {
+  font-size: 18px;
+}
+
+footer .socmed .socmed-item {
+  width: 40px;
+  height: 40px;
+  border: #ffffff 1px solid;
+  border-radius: 50px;
+}
+
+footer .socmed .socmed-item img {
+  width: 20px;
+  height: 20px;
+}
+
+footer .socmed .socmed-item .img-alternative {
+  display: none;
+}
+
+footer .socmed .socmed-item .img-one {
+  display: block;
+}
+
+footer .socmed .socmed-item:hover {
+  background-color: #ffffff;
+}
+
+footer .socmed .socmed-item:hover .img-one {
+  display: none;
+}
+
+footer .socmed .socmed-item:hover .img-alternative {
+  display: block;
+}
+
+footer h3 {
+  color: #ffffff;
+}
+
+footer hr {
+  color: #ffffff;
+}
+
+footer span {
+  color: #ffffff;
+  font-weight: 300;
+  min-height: 60px;
+}
+
+footer .kontak {
+  color: #ffffff;
+}
+
+footer .kontak .kontak-item img {
+  height: 20px;
 }
 /*# sourceMappingURL=index.css.map */
