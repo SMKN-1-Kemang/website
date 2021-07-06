@@ -4,6 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 nav {
     min-height: 70px;
     
@@ -43,6 +44,55 @@ nav {
     }
 }
 
+footer {
+    background-color: #133A9E;
+    min-height: 380px;
+
+    .logo {
+        height: 100px;
+    }
+    
+    .jargon {
+        font-size: 18px;
+    }
+
+    h5 {
+        color: #ffffff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #eeeeee;
+        font-weight: 300;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    hr {
+        color: #ffffff;
+    }
+
+    span {
+        color: #ffffff;
+        font-weight: 300;
+        min-height: 60px;
+    }
+
+    .kontak {
+        color: #ffffff;
+        .kontak-item {
+            img {
+                height: 20px;
+            }
+        }
+
+        font-weight: 300;
+    }
+}
+
+// Homepage
 header {
     height: 660px;
     background-image: url('../assets/img/bg.jpg');
@@ -196,7 +246,6 @@ header {
             font-size: 18px;
         }
     }
-    
 }
 
 .section-berita {
@@ -215,21 +264,7 @@ header {
         .card-body {
             font-size: 18px;
             font-weight: 300;
-        }
-
-        .footer {
-            .author, .calendar {
-                img {
-                    width: 14px;
-                }
-                p {
-                    margin-left: 8px;
-                    margin-bottom: 0;
-                    font-size: 14px;
-                    }
-            }
-        }
-            
+        }   
     }
 
     .lainya-btn {
@@ -239,72 +274,38 @@ header {
     }
 }
 
+.author, .calendar {
+    img {
+        width: 14px;
+    }
+    p {
+        margin-left: 8px;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+}
 
-footer {
-    background-color: #133A9E;
-    min-height: 380px;
-
-    .logo {
-        height: 100px;
+// Artikel
+.section-artikel {
+    .breadcrumb-bg {
+        background-color: #EDEDED;
     }
     
-    .jargon {
-        font-size: 18px;
+    .breadcrumb {
+        height: 80px;
+        margin: 0;
+        padding: 0;
     }
 
-    .socmed {
-       .socmed-item {
-            width: 40px;
-            height: 40px;
-            border: #ffffff 1px solid;
-            border-radius: 50px;
-
-            img {
-               width: 20px;
-               height: 20px;
-            }
-
-            .img-alternative {
-                display: none;
-            }
-
-            .img-one {
-                display: block;
-            }
+    .card {
+        .card-title {
+            font-weight: 400;
+            font-size: 18px;
+            text-decoration: none;
+            color: #000000;
 
             &:hover {
-                background-color: #ffffff;
-                
-                .img-one {
-                    display: none;
-                }
-
-                .img-alternative {
-                    display: block;
-                }
-            }
-        } 
-    }
-
-    h3 {
-        color: #ffffff;
-    }
-
-    hr {
-        color: #ffffff;
-    }
-
-    span {
-        color: #ffffff;
-        font-weight: 300;
-        min-height: 60px;
-    }
-
-    .kontak {
-        color: #ffffff;
-        .kontak-item {
-            img {
-                height: 20px;
+                color: #0d6efd;
             }
         }
     }

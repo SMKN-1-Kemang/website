@@ -43,6 +43,52 @@ nav .nav-item .btn {
   }
 }
 
+footer {
+  background-color: #133A9E;
+  min-height: 380px;
+}
+
+footer .logo {
+  height: 100px;
+}
+
+footer .jargon {
+  font-size: 18px;
+}
+
+footer h5 {
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eeeeee;
+  font-weight: 300;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer hr {
+  color: #ffffff;
+}
+
+footer span {
+  color: #ffffff;
+  font-weight: 300;
+  min-height: 60px;
+}
+
+footer .kontak {
+  color: #ffffff;
+  font-weight: 300;
+}
+
+footer .kontak .kontak-item img {
+  height: 20px;
+}
+
 header {
   height: 660px;
   background-image: url("../assets/img/bg.jpg");
@@ -209,86 +255,40 @@ header .button-container .profile-btn {
   font-weight: 300;
 }
 
-.section-berita .card .footer .author img, .section-berita .card .footer .calendar img {
-  width: 14px;
-}
-
-.section-berita .card .footer .author p, .section-berita .card .footer .calendar p {
-  margin-left: 8px;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
 .section-berita .lainya-btn {
   margin: 100px 0;
   width: 160px;
   height: 40px;
 }
 
-footer {
-  background-color: #133A9E;
-  min-height: 380px;
+.author img, .calendar img {
+  width: 14px;
 }
 
-footer .logo {
-  height: 100px;
+.author p, .calendar p {
+  margin-left: 8px;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
-footer .jargon {
+.section-artikel .breadcrumb-bg {
+  background-color: #EDEDED;
+}
+
+.section-artikel .breadcrumb {
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.section-artikel .card .card-title {
+  font-weight: 400;
   font-size: 18px;
+  text-decoration: none;
+  color: #000000;
 }
 
-footer .socmed .socmed-item {
-  width: 40px;
-  height: 40px;
-  border: #ffffff 1px solid;
-  border-radius: 50px;
-}
-
-footer .socmed .socmed-item img {
-  width: 20px;
-  height: 20px;
-}
-
-footer .socmed .socmed-item .img-alternative {
-  display: none;
-}
-
-footer .socmed .socmed-item .img-one {
-  display: block;
-}
-
-footer .socmed .socmed-item:hover {
-  background-color: #ffffff;
-}
-
-footer .socmed .socmed-item:hover .img-one {
-  display: none;
-}
-
-footer .socmed .socmed-item:hover .img-alternative {
-  display: block;
-}
-
-footer h3 {
-  color: #ffffff;
-}
-
-footer hr {
-  color: #ffffff;
-}
-
-footer span {
-  color: #ffffff;
-  font-weight: 300;
-  min-height: 60px;
-}
-
-footer .kontak {
-  color: #ffffff;
-}
-
-footer .kontak .kontak-item img {
-  height: 20px;
+.section-artikel .card .card-title:hover {
+  color: #0d6efd;
 }
 /*# sourceMappingURL=index.css.map */
