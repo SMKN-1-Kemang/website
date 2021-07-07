@@ -1,7 +1,4 @@
-AOS.init();
-
-// You can also pass an optional settings object
-// below listed default settings
+// Aos Config
 AOS.init({
   // Global settings:
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -25,9 +22,29 @@ AOS.init({
 
 });
 
-(function() { // DON'T EDIT BELOW THIS LINE
+AOS.init();
+// End Aos Config
+
+// Disqus Config
+(function() { 
   var d = document, s = d.createElement('script');
   s.src = 'https://smkn-1-kemang-1.disqus.com/embed.js';
   s.setAttribute('data-timestamp', +new Date());
   (d.head || d.body).appendChild(s);
 })();
+// End Disqus Config
+
+// Maps Config
+function initMap() {
+  const myLatLng = { lat: -6.500693, lng: 106.747215 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 16,
+    center: myLatLng,
+  });
+  new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: "Hello World!",
+  });
+}
+// End Maps Config

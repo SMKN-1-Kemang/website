@@ -91,7 +91,7 @@ footer hr {
 footer span {
   color: #ffffff;
   font-weight: 300;
-  min-height: 60px;
+  min-height: 80px;
 }
 
 footer .kontak {
@@ -294,5 +294,43 @@ header .button-container .profile-btn {
 
 .section-artikel .card .card-title:hover {
   color: #0d6efd;
+}
+
+.section-contact .contact-icon {
+  height: 80px;
+}
+
+.section-contact h4 {
+  font-weight: 500;
+}
+
+.section-contact p {
+  font-size: 16px;
+}
+
+.section-contact h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#map {
+  height: 500px;
+}
+
+.section-galeri {
+  margin-bottom: 100px;
+}
+
+.section-galeri .img-container {
+  height: 200px;
+}
+
+.section-galeri img {
+  position: relative;
+  width: 100%;
+}
+
+.section-content {
+  margin-bottom: 100px;
 }
 /*# sourceMappingURL=index.css.map */

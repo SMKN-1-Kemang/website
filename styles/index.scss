@@ -91,7 +91,7 @@ footer {
     span {
         color: #ffffff;
         font-weight: 300;
-        min-height: 60px;
+        min-height: 80px;
     }
 
     .kontak {
@@ -317,3 +317,44 @@ header {
     }
 }
 // end artikel
+
+// Contact
+.section-contact {
+    .contact-icon {
+       height: 80px; 
+    }
+
+    h4 {
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+#map {
+    height: 500px;
+}
+// End Contact
+
+.section-galeri {
+    margin-bottom: 100px;
+
+    .img-container {
+        height: 200px;
+    }
+    img {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.section-content {
+    margin-bottom: 100px;
+}
