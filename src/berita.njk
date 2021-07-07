@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Berita
+---
+
+
+<div class="breadcrumb-bg">
+        <div class="container">
+            <div class="col-12">
+                <nav>
+                    <ol class="breadcrumb d-flex align-items-center">
+                        <li class="breadcrumb-item">
+                            Beranda
+                        </li>
+                        <li class="breadcrumb-item active">
+                            Berita
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="container section-berita mb-5">
+        <h2 class="text-center judul my-5">Berita</h2>
+        <div class="row">
+            <div class="col-12 col-lg-6 mx-auto">
+                <form action="">
+                    <div class="input-group mt-4">
+                        <input type="text" class="form-control" placeholder="Masukan Kata Kunci...">
+                        <button class="btn btn-outline-secondary" type="submi">cari</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 col-lg-4 mb-5">
+                {% include 'snippet.njk' %}
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,24 @@
+{
+  "name": "website-sekolah",
+  "version": "1.0.0",
+  "description": "Website Utama SMKN 1 Kemang",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SMKN-1-Kemang/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SMKN-1-Kemang/website/issues"
+  },
+  "homepage": "https://github.com/SMKN-1-Kemang/website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
