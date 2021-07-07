@@ -43,6 +43,20 @@ nav .nav-item .btn {
   }
 }
 
+.breadcrumb-bg {
+  background-color: #EDEDED;
+}
+
+.breadcrumb {
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.judul {
+  font-weight: 400;
+}
+
 footer {
   background-color: #133A9E;
   min-height: 380px;
@@ -269,16 +283,6 @@ header .button-container .profile-btn {
   margin-left: 8px;
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.section-artikel .breadcrumb-bg {
-  background-color: #EDEDED;
-}
-
-.section-artikel .breadcrumb {
-  height: 80px;
-  margin: 0;
-  padding: 0;
 }
 
 .section-artikel .card .card-title {

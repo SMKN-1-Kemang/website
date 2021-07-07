@@ -4,7 +4,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+// Commponent
 nav {
     min-height: 70px;
     
@@ -42,6 +42,20 @@ nav {
             }
         }
     }
+}
+
+.breadcrumb-bg {
+    background-color: #EDEDED;
+}
+
+.breadcrumb {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    font-weight: 400;
 }
 
 footer {
@@ -91,6 +105,7 @@ footer {
         font-weight: 300;
     }
 }
+// end component
 
 // Homepage
 header {
@@ -284,19 +299,10 @@ header {
         font-size: 14px;
     }
 }
+// end Homepage
 
 // Artikel
 .section-artikel {
-    .breadcrumb-bg {
-        background-color: #EDEDED;
-    }
-    
-    .breadcrumb {
-        height: 80px;
-        margin: 0;
-        padding: 0;
-    }
-
     .card {
         .card-title {
             font-weight: 400;
@@ -310,3 +316,4 @@ header {
         }
     }
 }
+// end artikel
