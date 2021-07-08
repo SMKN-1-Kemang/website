@@ -1,0 +1,17 @@
+<div class="card mx-2 mb-5">
+    <img src="/assets/img/image1.jpg" class="card-img-top" alt="...">
+    <div class="card-body mx-2">
+        <a href="{{ post.url }}" class="card-title">{{ title }}</a>
+        <p class="card-text mt-3">{{ description }}</p>
+        <div class="footer d-flex justify-content-between">
+            <div class="author d-flex align-items-center me-3">
+                <img src="/assets/icon/ic_author.svg" alt="">
+                <p>{{ author }}</p>
+            </div>
+            <div class="calendar d-flex align-items-center">
+                <img src="/assets/icon/ic_calendar.svg" alt="">
+                <p>{{ date | postDate }}</p>
+            </div>
+        </div>
+    </div>
+</div>
