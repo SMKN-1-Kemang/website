@@ -1,0 +1,47 @@
+---
+layout: base.njk
+additionalScript: <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script>
+---
+
+<div class="breadcrumb-bg">
+    <div class="container">
+        <div class="col-12">
+            <nav>
+                <ol class="breadcrumb d-flex align-items-center">
+                    <li class="breadcrumb-item">
+                        Beranda
+                    </li>
+                    <li class="breadcrumb-item">
+                        Page
+                    </li>
+                    <li class="breadcrumb-item active">
+                        {{ title }}
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<h2 class="text-center judul my-5">{{ title }}</h2>
+
+<section class="section-content">
+    <div class="container">
+        <div class="row">
+            <div class="col d-flex align-items-center justify-content-center">
+                <img src="/assets/icon/ic_calendar.svg" alt="" width="18px" class="me-3">
+                <p class="m-0">{{ date | dateFilter }}</p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-5">
+            <div class="col-8 border rounded px-5 py-5">
+                {{ content | safe }}
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center mt-4">
+            <div class="col-8 border rounded py-3 px-4">
+                <div class="sharethis-inline-share-buttons"></div>
+            </div>
+        </div>
+    </div>
+</section>

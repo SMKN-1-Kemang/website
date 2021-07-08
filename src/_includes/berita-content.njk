@@ -13,10 +13,10 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                         Beranda
                     </li>
                     <li class="breadcrumb-item">
-                        Artikel
+                        Berita
                     </li>
                     <li class="breadcrumb-item active">
-                        Judul
+                        {{ title }}
                     </li>
                 </ol>
             </nav>
@@ -35,7 +35,7 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                 </div>
                 <div class="calendar d-flex align-items-center">
                   <img src="/assets/icon/ic_calendar.svg" alt="">
-                  <p>{{ date | postDate }}</p>
+                  <p>{{ date | dateFilter }}</p>
                 </div>
             </div>
             <div class="thumbnail mt-4">
@@ -80,7 +80,7 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                                 </div>
                                 <div class="calendar d-flex align-items-center">
                                     <img src="/assets/icon/ic_calendar.svg" alt="">
-                                    <p>{{ post.date | postDate }}</p>
+                                    <p>{{ post.date | dateFilter }}</p>
                                 </div>
                             </div>
                         </div>

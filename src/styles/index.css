@@ -123,35 +123,48 @@ header p {
 }
 
 header .button-container {
-  margin-top: 40px;
+  width: auto;
 }
 
 header .button-container .info-btn {
-  width: 160px;
   height: 40px;
-  margin-right: 20px;
 }
 
 header .button-container .profile-btn {
-  width: 160px;
   height: 40px;
-  margin-right: 20px;
+}
+
+header .button-container .profile-btn .svg-alternative {
+  display: none;
+}
+
+header .button-container .profile-btn:hover .svg-alternative {
+  display: inline-block;
+}
+
+header .button-container .profile-btn:hover .svg-one {
+  display: none;
+}
+
+header .button-container img {
+  height: 20px;
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    height: 480px;
+  }
+  header .content {
+    margin-top: 100px;
+  }
   header h1 {
-    font-size: 40px;
+    font-size: 36px;
   }
   header p {
     font-size: 18px;
   }
-  header .info-btn {
-    width: 100px;
-    height: 40px;
-  }
   header .profile-btn {
-    width: 100px;
-    height: 40px;
+    margin-top: 10px;
   }
 }
 
@@ -193,8 +206,8 @@ header .button-container .profile-btn {
 }
 
 .section-vismistu .card .ic {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
 }
 
 .section-vismistu .card h2 {
@@ -213,8 +226,8 @@ header .button-container .profile-btn {
 
 .section-vismistu .card:hover {
   background-color: #0d6efd !important;
-  -webkit-transition: all 0.8s;
-  transition: all 0.8s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   cursor: context-menu;
 }
 
@@ -231,7 +244,7 @@ header .button-container .profile-btn {
 }
 
 .section-vismistu .card:hover p {
-  color: #ececec;
+  color: #ececec !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -251,6 +264,10 @@ header .button-container .profile-btn {
 
 .section-jurusan .card .card-body {
   font-size: 18px;
+}
+
+.section-jurusan img {
+  height: 100px;
 }
 
 .section-berita .card .card-title {
@@ -283,17 +300,6 @@ header .button-container .profile-btn {
   margin-left: 8px;
   margin-bottom: 0;
   font-size: 14px;
-}
-
-.section-artikel .card .card-title {
-  font-weight: 400;
-  font-size: 18px;
-  text-decoration: none;
-  color: #000000;
-}
-
-.section-artikel .card .card-title:hover {
-  color: #0d6efd;
 }
 
 .section-contact .contact-icon {

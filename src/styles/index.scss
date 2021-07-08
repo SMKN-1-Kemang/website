@@ -127,37 +127,52 @@ header {
     }
 
     .button-container {
-        margin-top: 40px;
+        width: auto;
+
         .info-btn {
-            width: 160px;
             height: 40px;
-            margin-right: 20px;
         }
 
         .profile-btn {
-            width: 160px;
             height: 40px;
-            margin-right: 20px;
+            
+            .svg-alternative {
+                display: none;
+            }
+
+            &:hover {
+                .svg-alternative {
+                    display: inline-block;
+                }
+
+                .svg-one {
+                    display: none;
+                }
+            }
+        }
+
+        img {
+            height: 20px;
         }
     }
 
     @media screen and (max-width: $medium) {
+        height: 480px;
+
+        .content {
+            margin-top: 100px;
+        }
+
         h1 {
-            font-size: 40px;
+            font-size: 36px;
         }
 
         p {
             font-size: 18px;
         }
 
-        .info-btn {
-            width: 100px;
-            height: 40px;
-        }
-
         .profile-btn {
-            width: 100px;
-            height: 40px;
+            margin-top: 10px;
         }
     }
 }
@@ -200,8 +215,8 @@ header {
 
     .card {
         .ic {
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
         }
 
         h2 {
@@ -219,7 +234,7 @@ header {
 
         &:hover {
             background-color: #0d6efd !important;
-            transition: all 0.8s;
+            transition: all 0.5s;
             
             .svg-one {
                 display: none;
@@ -234,7 +249,7 @@ header {
             }
 
             p {
-                color: #ececec;
+                color: #ececec !important;
             }
             
             cursor: context-menu;
@@ -260,6 +275,10 @@ header {
         .card-body {
             font-size: 18px;
         }
+    }
+
+    img {
+        height: 100px;
     }
 }
 
@@ -300,23 +319,6 @@ header {
     }
 }
 // end Homepage
-
-// Artikel
-.section-artikel {
-    .card {
-        .card-title {
-            font-weight: 400;
-            font-size: 18px;
-            text-decoration: none;
-            color: #000000;
-
-            &:hover {
-                color: #0d6efd;
-            }
-        }
-    }
-}
-// end artikel
 
 // Contact
 .section-contact {
