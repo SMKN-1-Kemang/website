@@ -10,7 +10,7 @@ title: Berita - SMK Negeri 1 Kemang
         <div class="row mt-5 d-flex">
             <div class="col-12 col-lg-8">
                 <div class="row">
-                    {%- for news in collections.featured | reverse -%}
+                    {%- for news in collections.news | reverse -%}
                         <div class="col-12 col-lg-6 mb-3">
                             {% set title = news.data.title %}
                             {% set image = news.data.image %}
