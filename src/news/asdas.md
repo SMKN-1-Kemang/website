@@ -5,6 +5,7 @@ author: fatur
 date: 2021-07-09T07:41:45.536Z
 tags:
   - news
+  - featured
 image: /assets/upload/berita.jpg
 imageAlt: caption
 ---
