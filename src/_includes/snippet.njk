@@ -1,16 +1,18 @@
-<div class="card mx-2 mb-5">
-    <img src="/assets/img/image1.jpg" class="card-img-top" alt="...">
+<div class="card mx-2 mb-5 shadow-sm">
+    <img src="{{ image }}" class="card-img-top" alt="...">
     <div class="card-body mx-2">
-        <a href="{{ post.url }}" class="card-title">{{ title }}</a>
+        <h4>
+            <a href="{{ url }}" class="card-title">{{ title }}</a>
+        </h4>
         <p class="card-text mt-3">{{ description }}</p>
         <div class="footer d-flex justify-content-between">
             <div class="author d-flex align-items-center me-3">
                 <img src="/assets/icon/ic_author.svg" alt="">
-                <p>{{ author }}</p>
+                <small class="text-muted ms-2">{{ author }}</small>
             </div>
             <div class="calendar d-flex align-items-center">
                 <img src="/assets/icon/ic_calendar.svg" alt="">
-                <p>{{ date | dateFilter }}</p>
+                <small class="text-muted ms-2">{{ date | dateFilter }}</small>
             </div>
         </div>
     </div>

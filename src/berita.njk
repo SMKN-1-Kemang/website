@@ -1,47 +1,63 @@
 ---
 layout: base.njk
-title: Berita
+title: Berita - SMK Negeri 1 Kemang
 ---
 
+<h2 class="text-center judul my-5">Berita</h2>
 
-<div class="breadcrumb-bg">
-    <div class="container">
-        <div class="col-12">
-            <nav>
-                <ol class="breadcrumb d-flex align-items-center">
-                    <li class="breadcrumb-item">
-                        Beranda
-                    </li>
-                    <li class="breadcrumb-item active">
-                        Berita
-                    </li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</div>
-
-<section class="container section-berita mb-5">
-    <h2 class="text-center judul my-5">Berita</h2>
-    <div class="row">
-        <div class="col-12 col-lg-6 mx-auto">
-            <form action="">
-                <div class="input-group mt-4">
-                    <input type="text" class="form-control" placeholder="Masukan Kata Kunci...">
-                    <button class="btn btn-outline-secondary" type="submi">cari</button>
+<section class="section-berita mb-5">    
+    <div class="container mb-5">
+        <div class="row mt-5 d-flex">
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    {%- for news in collections.featured | reverse -%}
+                        <div class="col-12 col-lg-6 mb-3">
+                            {% set title = news.data.title %}
+                            {% set image = news.data.image %}
+                            {% set description = news.data.description %}
+                            {% set author = news.data.author %}
+                            {% set date = news.date %}
+                            {% set url = news.url %}
+                            {% include 'snippet.njk' %}
+                        </div>
+                    {%- endfor -%}
                 </div>
-            </form>
-        </div>
-    </div>
-    <div class="row mt-5">
-        {%- for post in collections.featured -%}
-            <div class="col-12 col-lg-4 mb-5">
-                {% set title = post.data.title %}
-                {% set description = post.data.description %}
-                {% set author = post.data.author %}
-                {% set date = post.date %}
-                {% include 'snippet.njk' %}
             </div>
-        {%- endfor -%}
+            <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
+                <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
+                    <div class="search-container">
+                        <h5>Pencarian</h5>
+                        <form action="">
+                            <div class="input-group mt-4">
+                                <input type="text" class="form-control" placeholder="Masukan Kata Kunci...">
+                                <button class="btn btn-outline-secondary" type="submi">cari</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tag-container mt-4">
+                        <h5>Tag</h5>
+                        <div class="tag mt-4 p-3 border rounded">
+                            <button class="btn badge bg-light text-dark px-3 fw-normal">PPDB</button>
+                            <button class="btn badge bg-light text-dark px-3 fw-normal">Lomba</button>
+                            <button class="btn badge bg-light text-dark px-3 fw-normal">Juara</button>
+                        </div>
+                    </div>
+                    <div class="rekomendasi-container mt-4">
+                        <h5>Baca Juga</h5>
+                        <div class="row mt-4">
+                            {%- for news in collections.featured -%}
+                                {% set title = news.data.title %}
+                                {% set image = news.data.image %}
+                                {% set description = news.data.description %}
+                                {% set author = news.data.author %}
+                                {% set date = news.date %}
+                                {% set url = news.url %}
+                                {% include 'mini-snippet.njk' %}
+                            {%- endfor -%}
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
     </div>
 </section>

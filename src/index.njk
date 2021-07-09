@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: SMKN 1 Kemang
+title: SMK Negeri 1 Kemang
 additionalStyle: <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 ---
@@ -12,15 +12,15 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                     <h1 class="text-white">SMK Negeri 1 Kemang</h1>
                     <p class="text-white">Cerdas, Disiplin, Berprestasi</p>
                     <div class="button-container mt-5">
-                        <button class="btn btn-primary info-btn me-3">
+                        <a href="/page/ppdb-2021" class="btn btn-primary info-btn me-3">
                             <img src="/assets/icon/ic_handshake.svg" alt="" class="me-3" width="25px">
                             <span>Info PPDB</span>
-                        </button>
-                        <button class="btn btn-outline-light profile-btn">
+                        </a>
+                        <a href="/page/profil-sekolah" class="btn btn-outline-light profile-btn">
                             <img src="/assets/icon/ic_cv.svg" alt="" class="me-3 svg-one">
                             <img src="/assets/icon/ic_cv2.svg" alt="" class="me-3 svg-alternative">
                             <span>Profil Sekolah</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
             <div class="col-10 col-lg-4" data-aos="fade-right">
                 <a href="/page/tkj" class="nav-link text-dark">
                     <div class="card pb-3">
-                        <img src="./assets/icon/ic_tkj.svg" class="card-img-top mx-auto mt-5" alt="">
+                        <img src="./assets/icon/logo-tkj.svg" class="card-img-top mx-auto mt-5" alt="">
                         <h3 class="card-title text-center mt-3">
                             TKJ
                         </h3>
@@ -105,7 +105,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
             <div class="col-10 col-lg-4" data-aos="fade-right">
                 <a href="/page/dpib" class="nav-link text-dark">
                     <div class="card pb-3">
-                        <img src="./assets/icon/ic_dpib.svg" class="card-img-top mx-auto mt-5" alt="">
+                        <img src="./assets/icon/logo-dpib.svg" class="card-img-top mx-auto mt-5" alt="">
                         <h3 class="card-title text-center mt-3">
                             DPIB
                         </h3>
@@ -118,7 +118,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
             <div class="col-10 col-lg-4" data-aos="fade-right">
                 <a href="/page/tbo" class="nav-link text-dark">
                     <div class="card pb-3">
-                        <img src="./assets/icon/ic_tbo.svg" class="card-img-top mx-auto mt-5" alt="">
+                        <img src="./assets/icon/logo-tbo.svg" class="card-img-top mx-auto mt-5" alt="">
                         <h3 class="card-title text-center mt-3">
                             TBO
                         </h3>
@@ -131,7 +131,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
             <div class="col-10 col-lg-4 mt-md-0" data-aos="fade-right">
                 <a href="/page/tesha" class="nav-link text-dark">
                     <div class="card pb-3">
-                        <img src="./assets/icon/ic_tesha.svg" class="card-img-top mx-auto mt-5" alt="">
+                        <img src="./assets/icon/logo-tesha.svg" class="card-img-top mx-auto mt-5" alt="">
                         <h3 class="card-title text-center mt-3">
                             TESHA
                         </h3>
@@ -144,7 +144,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
             <div class="col-10 col-lg-4" data-aos="fade-right">
                 <a href="/page/tkkr" class="nav-link text-dark">
                     <div class="card pb-3">
-                        <img src="./assets/icon/ic_tkkr.svg" class="card-img-top mx-auto mt-5" alt="">
+                        <img src="./assets/icon/logo-tkkr.svg" class="card-img-top mx-auto mt-5" alt="">
                         <h3 class="card-title text-center mt-3">
                             TKKR
                         </h3>
@@ -162,12 +162,14 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
     <div class="container">
         <h2 class="py-3 text-center text-md-start">Berita Terbaru</h2>
         <div class="row mt-5">
-            {%- for post in collections.featured -%}
+            {%- for news in collections.featured | reverse -%}
                 <div class="col-12 col-md-6 col-lg-4" data-aos="fade-right">
-                    {% set title = post.data.title %}
-                    {% set description = post.data.description %}
-                    {% set author = post.data.author %}
-                    {% set date = post.date %}
+                    {% set title = news.data.title %}
+                    {% set image = news.data.image %}
+                    {% set description = news.data.description %}
+                    {% set author = news.data.author %}
+                    {% set date = news.date %}
+                    {% set url = news.url %}
                     {% include 'snippet.njk' %}
                 </div>
             {%- endfor -%}

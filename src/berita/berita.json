@@ -1,4 +1,4 @@
 {
     "layout": "berita-content.njk",
-    "tags": "post" 
+    "tags": "news" 
 }

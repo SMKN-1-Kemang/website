@@ -43,14 +43,14 @@ nav .nav-item .btn {
   }
 }
 
-.breadcrumb-bg {
-  background-color: #EDEDED;
+.card .card-title {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
 }
 
-.breadcrumb {
-  height: 80px;
-  margin: 0;
-  padding: 0;
+.card .card-title:hover {
+  color: #0d6efd;
 }
 
 .judul {
@@ -270,20 +270,9 @@ header .button-container img {
   height: 100px;
 }
 
-.section-berita .card .card-title {
-  font-weight: 400;
-  font-size: 24px;
-  text-decoration: none;
-  color: #000000;
-}
-
-.section-berita .card .card-title:hover {
-  color: #0d6efd;
-}
-
 .section-berita .card .card-body {
-  font-size: 18px;
   font-weight: 300;
+  font-size: 18px;
 }
 
 .section-berita .lainya-btn {

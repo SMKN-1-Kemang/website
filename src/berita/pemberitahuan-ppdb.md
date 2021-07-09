@@ -4,7 +4,7 @@ description: tentang pemberitahuan ppdb
 author: fatur
 date: 2021-07-08T16:47:24.472Z
 tags:
-  - post
+  - news
   - featured
 image: /assets/upload/berita.jpg
 imageAlt: ppdb
@@ -13,4 +13,4 @@ imageAlt: ppdb
 
 
 
-ada beberapa bla bla bla
+ada beberapa bla bla bla sda  adsadasd  asdhashdasd asjdhasjdhaksd kasdjkasdkjasdnas dajsdnaksjdnnsmd m  sm msdsnmds dmsd msndmsdms sdndams dadjkansd aksd as jnasdkansd 

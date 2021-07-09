@@ -3,52 +3,35 @@ layout: base.njk
 additionalScript: <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ---
 
-{# Breadcrumb #}
-<div class="breadcrumb-bg">
-    <div class="container">
-        <div class="col-12">
-            <nav>
-                <ol class="breadcrumb d-flex align-items-center">
-                    <li class="breadcrumb-item">
-                        Beranda
-                    </li>
-                    <li class="breadcrumb-item">
-                        Berita
-                    </li>
-                    <li class="breadcrumb-item active">
-                        {{ title }}
-                    </li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-</div>
-
 <div class="container mb-5">
-    <div class="row mt-5 d-flex justify-content-center">
-        <div class="col-10 col-lg-8 py-5 px-3 px-lg-5 border rounded">
-            <h2>{{ title }}</h2>
-            <div class="d-flex mt-3">
-                <div class="author d-flex align-items-center me-3">
-                    <img src="/assets/icon/ic_author.svg" alt="">
-                    <p>{{ author }}</p>
+    <div class="row mt-5 d-flex">
+        <div class="col-12 col-lg-8 mx-auto">
+            <div class="content-container py-5 px-4 px-lg-5 border shadow-sm rounded">
+                <h2>{{ title }}</h2>
+                <div class="d-flex mt-3">
+                    <div class="author d-flex align-items-center me-3">
+                        <img src="/assets/icon/ic_author.svg" alt="">
+                        <p>{{ author }}</p>
+                    </div>
+                    <div class="calendar d-flex align-items-center">
+                    <img src="/assets/icon/ic_calendar.svg" alt="">
+                    <p>{{ date | dateFilter }}</p>
+                    </div>
                 </div>
-                <div class="calendar d-flex align-items-center">
-                  <img src="/assets/icon/ic_calendar.svg" alt="">
-                  <p>{{ date | dateFilter }}</p>
+                <div class="thumbnail mt-3">
+                    <img src="{{ image }}" alt="{{ imageAlt }}" class="img-fluid">
+                </div>
+                <div class="content mt-4">
+                    <div class="content">
+                        {{ content | safe }}
+                    </div>
                 </div>
             </div>
-            <div class="thumbnail mt-4">
-                <img src="{{ image }}" alt="{{ imageAlt }}" class="img-fluid">
-            </div>
-            <div class="content mt-4">
-                <div class="content">
-                    {{ content | safe }}
-                </div>
-            </div>
+            <div class="sharethis-inline-share-buttons py-5 px-2 mt-4 border shadow-sm rounded"></div>
+            <div id="disqus_thread py-5 px-4 px-lg-5 mt-4 border shadow-sm rounded"></div>
         </div>
-        <div class="col-10 col-lg-4 d-none d-lg-block">
-            <div class="container py-5 px-3 px-lg-4 border rounded">
+        <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
+            <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
                 <div class="search-container">
                     <h5>Pencarian</h5>
                     <form action="">
@@ -60,7 +43,7 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                 </div>
                 <div class="tag-container mt-4">
                     <h5>Tag</h5>
-                    <div class="tag mt-4">
+                    <div class="tag mt-4 p-3 border rounded">
                         <button class="btn badge bg-light text-dark px-3 fw-normal">PPDB</button>
                         <button class="btn badge bg-light text-dark px-3 fw-normal">Lomba</button>
                         <button class="btn badge bg-light text-dark px-3 fw-normal">Juara</button>
@@ -68,36 +51,19 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                 </div>
                 <div class="rekomendasi-container mt-4">
                     <h5>Baca Juga</h5>
-                    {%- for post in collections.featured -%}
-                    <div class="card rounded border mt-4">
-                        <img src="/assets/img/berita.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <a href="#" class="card-title">{{ post.data.title }}</a>
-                            <div class="footer d-flex justify-content-between mt-3">
-                                <div class="author d-flex align-items-center me-3">
-                                    <img src="/assets/icon/ic_author.svg" alt="">
-                                    <p>{{ post.data.author }}</p>
-                                </div>
-                                <div class="calendar d-flex align-items-center">
-                                    <img src="/assets/icon/ic_calendar.svg" alt="">
-                                    <p>{{ post.date | dateFilter }}</p>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row mt-4">
+                        {%- for news in collections.featured -%}
+                            {% set title = news.data.title %}
+                            {% set image = news.data.image %}
+                            {% set description = news.data.description %}
+                            {% set author = news.data.author %}
+                            {% set date = news.date %}
+                            {% set url = news.url %}
+                            {% include 'mini-snippet.njk' %}
+                        {%- endfor -%}
                     </div>
-                    {%- endfor -%}
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="row mt-4 d-flex justify-content-center justify-content-lg-start">
-        <div class="col-10 col-lg-8 py-3 border rounded">
-            <div class="sharethis-inline-share-buttons"></div>
-        </div>
-    </div>
-    <div class="row mt-4 d-flex justify-content-center justify-content-lg-start">
-        <div class="col-10 col-lg-8 py-3 py-lg-5 px-3 px-lg-5  border rounded">
-            <div id="disqus_thread"></div>
-        </div>
+        </div> 
     </div>
 </div>

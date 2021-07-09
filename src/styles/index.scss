@@ -44,15 +44,16 @@ nav {
     }
 }
 
-.breadcrumb-bg {
-    background-color: #EDEDED;
-}
+.card{
+.card-title {
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
 
-.breadcrumb {
-    height: 80px;
-    margin: 0;
-    padding: 0;
-}
+    &:hover {
+        color: #0d6efd;
+    }
+}}
 
 .judul {
     font-weight: 400;
@@ -284,20 +285,9 @@ header {
 
 .section-berita {
     .card {
-        .card-title {
-            font-weight: 400;
-            font-size: 24px;
-            text-decoration: none;
-            color: #000000;
-
-            &:hover {
-                color: #0d6efd;
-            }
-        }
-
         .card-body {
-            font-size: 18px;
             font-weight: 300;
+            font-size: 18px;
         }   
     }
 
