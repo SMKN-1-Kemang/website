@@ -4,9 +4,9 @@ backend:
 media_folder: "public/assets/upload"
 public_folder: "/assets/upload"
 collections: 
-    - name: "news"
-      label: "News"
-      folder: "src/news"
+    - name: "berita"
+      label: "Berita"
+      folder: "src/berita"
       create: true
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       fields: 
