@@ -25,14 +25,6 @@ AOS.init({
 AOS.init();
 // End Aos Config
 
-// Disqus Config
-(function() { 
-  var d = document, s = d.createElement('script');
-  s.src = 'https://smkn-1-kemang-1.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
-// End Disqus Config
 
 // Maps Config
 function initMap() {
@@ -48,3 +40,4 @@ function initMap() {
   });
 }
 // End Maps Config
+

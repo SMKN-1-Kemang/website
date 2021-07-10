@@ -2,15 +2,16 @@
 layout: base.njk
 title: SMK Negeri 1 Kemang
 additionalStyle: <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 ---
+
+{# Halaman header waktu pertama kali buka #}
 <header>
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div  class="col-10">
                 <div class="content" data-aos="fade-right">
                     <h1 class="text-white">SMK Negeri 1 Kemang</h1>
-                    <p class="text-white">Cerdas, Disiplin, Berprestasi</p>
+                    <p class="text-white">Religius, Disiplin, Kerjasama, Inovatif dan Mandiri</p>
                     <div class="button-container mt-5">
                         <a href="/page/ppdb-2021" class="mt-3 mt-md-0 btn btn-primary info-btn me-3">
                             <img src="/assets/icon/ic_handshake.svg" alt="" class="me-3">
@@ -28,8 +29,9 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
     </div>
 </header>
 
-<div class="container">
-    <section class="section-sejarah" data-aos="fade-up">
+{# section sejarah singkat #}
+<section class="section-sejarah" data-aos="fade-up">
+    <div class="container">
         <div class="row">
             <div class="col-12 col-md-5">
                 <img src="/assets/img/image1.jpg" alt="">
@@ -40,16 +42,19 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                 <button class="btn btn-primary mt-3">Selengkapnya</button>
             </div>
         </div>
-    </section>
-
-    <div class="section-vismistu">
+    </div>
+</section>
+    
+{# section visi misi tujuan #}
+<section class="section-vismistu">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6" data-aos="fade-right">
-                <div class="card px-4 px-lg-5">
-                    <img src="./assets/icon/ic_visi.svg" alt="" class="ic svg-one mt-5">
-                    <img src="./assets/icon/ic_visi2.svg" alt="" class="ic svg-alternative mt-5">
+            <div class="col-12 col-md-4" data-aos="fade-right">
+                <div class="card px-4 px-lg-5 shadow-sm">
+                    <img src="./assets/icon/ic_visi.svg" alt="" class="ic svg-one mt-5 mx-auto">
+                    <img src="./assets/icon/ic_visi2.svg" alt="" class="ic svg-alternative mt-5 mx-auto">
                     <div class="card-body px-0 mb-5">
-                        <h2 class="card-title">Visi</h2>
+                        <h2 class="card-title text-center">Visi</h2>
                         <p class="card-text text-muted">
                             Menjadi Lembaga Pendidikan dan Pelatihan, 
                             serta menghasilkan lulusan yang amanah, 
@@ -57,14 +62,14 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             dan Internasional yang beriman dan bertaqwa.
                         </p>
                     </div>
-                    </div>
                 </div>
-            <div class="col-12 col-md-6 mt-3 mt-md-0"  data-aos="fade-right">
-                <div class="card px-4 px-lg-5">
-                    <img src="./assets/icon/ic_misi.svg" alt="" class="ic svg-one mt-5">
-                    <img src="./assets/icon/ic_misi2.svg" alt="" class="ic svg-alternative mt-5">
+            </div>
+            <div class="col-12 col-md-4 mt-3 mt-md-0"  data-aos="fade-right">
+                <div class="card px-4 px-lg-5 shadow-sm">
+                    <img src="./assets/icon/ic_misi.svg" alt="" class="ic svg-one mt-5 mx-auto">
+                    <img src="./assets/icon/ic_misi2.svg" alt="" class="ic svg-alternative mt-5 mx-auto">
                     <div class="card-body px-0 mb-5">
-                        <h2 class="card-title">Misi</h2>
+                        <h2 class="card-title text-center">Misi</h2>
                         <p class="card-text text-muted">
                             1. Menyelenggarakan pembelajaran yang
                             inovatif dan kreatif sesuai dengan 
@@ -79,12 +84,25 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             Nasional maupun Internasional.
                         </p>
                     </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-3 mt-md-0"  data-aos="fade-right">
+                <div class="card px-4 px-lg-5 shadow-sm">
+                    <img src="./assets/icon/ic_tujuan.svg" alt="" class="ic svg-one mt-5 mx-auto">
+                    <img src="./assets/icon/ic_tujuan2.svg" alt="" class="ic svg-alternative mt-5 mx-auto">
+                    <div class="card-body px-0 mb-5">
+                        <h2 class="card-title text-center">Tujuan</h2>
+                        <p class="card-text text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vel deleniti quidem iusto placeat, ab ad vero perferendis? Laboriosam, nihil?
+                        </p>
                     </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
+{# section jurusan #}
 <section class="section-jurusan py-5">
     <div class="container">
         <h2 class="text-center py-3">Kompetensi Keahlian</h2>
@@ -97,7 +115,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             TKJ
                         </h3>
                         <div class="card-body">
-                        <p class="card-text text-center text-muted">Teknik Komputer Dan Jaringan</p>
+                            <p class="card-text text-center text-muted">Teknik komputer dan jaringan</p>
                         </div>
                     </div>
                 </a>
@@ -110,7 +128,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             DPIB
                         </h3>
                         <div class="card-body">
-                        <p class="card-text text-center text-muted">Desain Pemodelan dan Informasi Bangunan</p>
+                            <p class="card-text text-center text-muted">Desain pemodelan dan informasi bangunan</p>
                         </div>
                     </div>
                 </a>
@@ -123,7 +141,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             TBO
                         </h3>
                         <div class="card-body">
-                            <p class="card-text text-center text-muted">Teknik Body Otomotif</p>
+                            <p class="card-text text-center text-muted">Teknik bodi otomotif</p>
                         </div>
                     </div>
                 </a>
@@ -136,7 +154,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             TESHA
                         </h3>
                         <div class="card-body">
-                            <p class="card-text text-center text-muted">Teknik Surya Hidro Angin</p>
+                            <p class="card-text text-center text-muted">Teknik energi surya, hidro, angin</p>
                         </div>
                     </div>
                 </a>
@@ -149,7 +167,7 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
                             TKKR
                         </h3>
                         <div class="card-body">
-                            <p class="card-text text-center text-muted">Tata Kecantikan Kulit Dan Rambut</p>
+                            <p class="card-text text-center text-muted">Tata kecantikan kulit dan rambut</p>
                         </div>
                     </div>
                 </a>
@@ -157,7 +175,8 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
         </div>
     </div>
 </section>
-    
+
+{# section berita #}
 <section class="section-berita mt-5">
     <div class="container">
         <h2 class="py-3 text-center text-md-start">Berita Terbaru</h2>
@@ -177,8 +196,11 @@ additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script
         </div>
         <div class="row mb-5">
             <div class="col d-flex justify-content-center">
-                <a href="/berita" class="btn btn-primary lainya-btn" data-aos="fade-right">Lainya</a>
+                <a href="/berita" class="btn btn-primary lainya-btn shadow-sm" data-aos="fade-right">Lainya</a>
             </div>
         </div>
     </div>
 </section>
+
+{# Additional Script #}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

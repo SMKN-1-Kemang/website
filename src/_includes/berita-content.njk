@@ -1,6 +1,5 @@
 ---
 layout: base.njk
-additionalScript: <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ---
 
 <div class="container mb-5">
@@ -28,10 +27,21 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
                 </div>
             </div>
             <div class="sharethis-inline-share-buttons py-5 px-2 mt-4 border shadow-sm rounded"></div>
-            <div id="disqus_thread py-5 px-4 px-lg-5 mt-4 border shadow-sm rounded"></div>
+            <div id="disqus_thread" class="py-5 px-4 px-lg-5 mt-4 border shadow-sm rounded"></div>
         </div>
         <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
             {% include 'sidebar.njk' %}
         </div> 
     </div>
 </div>
+
+<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script>
+<script>
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://smknegerisatukemang-sch-id.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
