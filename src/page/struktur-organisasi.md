@@ -1,8 +1,8 @@
 ---
 title: Struktur Organisasi
-date: 2021-05-28
-tags: ['page']
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
+description: none
+date: 2021-07-09T14:07:48.026Z
+tags:
+  - page
 ---
-
-Belum ada konten
+tidak ada konten
