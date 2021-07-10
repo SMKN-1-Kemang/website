@@ -1,8 +1,21 @@
 ---
 title: Visi & Misi
-date: 2021-05-28
-tags: ['page']
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat.
+description: "   "
+date: 2021-01-01T14:09:13.361Z
+tags:
+  - page
 ---
+# Visi Sekolah
 
-Belum ada konten
+> Menjadi Lembaga Pendidikan dan Pelatihan, serta menghasilkan lulusan yang
+>
+> amanah, produktif, mampu bersaing secara Nasional dan Internasional
+>
+> yang beriman dan bertaqwa.
+
+# Misi Sekolah
+
+1. Menyelenggarakan pembelajaran yang inovatif dan kreatif sesuai dengan tuntutan era global
+2. Melaksanakan pengalaman ajaran agama yang dianutnya
+3. Mengembangkan sistem pembelajaran dan manajemen berbasis teknologi informasi
+4. Menjalin kemitraan dan kerjasama antar sekolah maupun DU/DI baik dengan skala Nasional maupun    International
