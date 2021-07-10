@@ -36,8 +36,10 @@ function initMap() {
   new google.maps.Marker({
     position: myLatLng,
     map,
-    title: "Hello World!",
+    title: "SMKN 1 Kemang",
   });
 }
+
+initMap();
 // End Maps Config
 
