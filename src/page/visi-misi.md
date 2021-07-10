@@ -5,7 +5,7 @@ date: 2021-01-01T14:09:13.361Z
 tags:
   - page
 ---
-# Visi Sekolah
+# **Visi Sekolah**
 
 > Menjadi Lembaga Pendidikan dan Pelatihan, serta menghasilkan lulusan yang
 >
@@ -13,7 +13,9 @@ tags:
 >
 > yang beriman dan bertaqwa.
 
-# Misi Sekolah
+
+
+# **Misi Sekolah**
 
 1. Menyelenggarakan pembelajaran yang inovatif dan kreatif sesuai dengan tuntutan era global
 2. Melaksanakan pengalaman ajaran agama yang dianutnya
