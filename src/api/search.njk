@@ -1,0 +1,22 @@
+---
+permalink: /search.json
+---
+
+{
+    "total": {{ collections.news | length  }}
+    "data": [
+        {%- for news in collections.news -%}
+        {
+            "title": "{{ news.data.title}}",
+            "description": "{{ news.data.description}}",
+            "date": "{{ news.date | dateFilter }}",
+            "category": "{{ news.data.category }}",
+            "tags": "{{ news.data.tags }},
+            "image": "{{ news.data.image }}",
+            "author": "{{ news.data.author }}",
+            "content": "{{ news.template.frontMatter.content }}",
+            "url": "{{ news.url }}",
+        },
+        {%- endfor -%}
+    ]
+}

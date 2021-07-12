@@ -43,3 +43,8 @@ function initMap() {
 initMap();
 // End Maps Config
 
+// new Splide( '#splide', {
+// 	type   : 'loop'
+// 	perPage: 3,
+// 	focus  : 'center',
+// } ).mount();

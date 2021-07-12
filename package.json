@@ -20,5 +20,8 @@
   "homepage": "https://github.com/SMKN-1-Kemang/website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "elasticlunr": "^0.9.5"
   }
 }
