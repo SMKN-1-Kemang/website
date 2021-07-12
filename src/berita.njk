@@ -25,38 +25,7 @@ title: Berita - SMK Negeri 1 Kemang
             </div>
             <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
                 <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
-                    <div class="search-container">
-                        <h5>Pencarian</h5>
-                        <form action="">
-                            <div class="input-group mt-4">
-                                <input type="text" class="form-control" placeholder="Masukan Kata Kunci...">
-                                <button class="btn btn-secondary" type="submi">cari</button>
-                            </div>
-                        </form>
-                        <div class="result d-none"></div>
-                    </div>
-                    <div class="tag-container mt-4">
-                        <h5>Tag</h5>
-                        <div class="tag mt-4 p-3 border rounded">
-                            <button class="btn badge bg-light text-dark px-3 fw-normal">PPDB</button>
-                            <button class="btn badge bg-light text-dark px-3 fw-normal">Lomba</button>
-                            <button class="btn badge bg-light text-dark px-3 fw-normal">Juara</button>
-                        </div>
-                    </div>
-                    <div class="rekomendasi-container mt-4">
-                        <h5>Baca Juga</h5>
-                        <div class="row mt-4">
-                            {%- for news in collections.featured -%}
-                                {% set title = news.data.title %}
-                                {% set image = news.data.image %}
-                                {% set description = news.data.description %}
-                                {% set author = news.data.author %}
-                                {% set date = news.date %}
-                                {% set url = news.url %}
-                                {% include 'mini-snippet.njk' %}
-                            {%- endfor -%}
-                        </div>
-                    </div>
+                    {% include 'sidebar.njk' %}
                 </div>
             </div> 
         </div>
