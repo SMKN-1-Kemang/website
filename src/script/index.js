@@ -25,7 +25,6 @@ AOS.init({
 AOS.init();
 // End Aos Config
 
-
 // Maps Config
 function initMap() {
   const myLatLng = { lat: -6.500693, lng: 106.747215 };
@@ -43,8 +42,18 @@ function initMap() {
 initMap();
 // End Maps Config
 
-// new Splide( '#splide', {
-// 	type   : 'loop'
-// 	perPage: 3,
-// 	focus  : 'center',
-// } ).mount();
+// Spilde Config
+new Splide( '.splide' , {
+  perPage: 3,
+  breakpoints: {
+    '640': {
+      perPage: 2,
+      gap: '1rem',
+    },
+    '480': {
+      perPage: 1,
+      gap    : '1rem',
+    },
+  }
+}).mount();
+// End Spilde Config

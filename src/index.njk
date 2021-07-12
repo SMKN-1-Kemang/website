@@ -2,6 +2,7 @@
 layout: base.njk
 title: SMK Negeri 1 Kemang
 additionalStyle: <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+additionalScript: <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 ---
 
 {# Halaman header waktu pertama kali buka #}
@@ -44,7 +45,7 @@ additionalStyle: <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="styl
         </div>
     </div>
 </section>
-    
+
 {# section visi misi tujuan #}
 <section class="section-vismistu">
     <div class="container">
@@ -205,22 +206,3 @@ additionalStyle: <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="styl
         </div>
     </div>
 </section>
-
-{# Additional Script #}
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-<script>
-	new Splide( '.splide' , {
-        perPage: 3,
-        breakpoints: {
-            '640': {
-                perPage: 2,
-                gap    : '1rem',
-            },
-            '480': {
-                perPage: 1,
-                gap    : '1rem',
-            },
-        }
-    }).mount();
-</script>

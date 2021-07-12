@@ -2,7 +2,9 @@
 permalink: /search.json
 ---
 
-{
+{{ collections.news | search | dump | safe }}
+
+{# {
     "total": {{ collections.news | length  }}
     "data": [
         {%- for news in collections.news -%}
@@ -19,4 +21,4 @@ permalink: /search.json
         },
         {%- endfor -%}
     ]
-}
+} #}

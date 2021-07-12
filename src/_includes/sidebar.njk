@@ -1,11 +1,13 @@
 <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
-    <div class="search-container field">
+    {# <div class="search-container field">
         <h5>Pencarian</h5>
         <div class="input-group mt-4">
             <input type="search" id="searchField" class="form-control" placeholder="Masukan Kata Kunci...">
             <button class="btn btn-secondary" type="submit">cari</button>
         </div>
-        <ol id="searchResults"></ol>
+        <div id="searchResult">
+
+        </div>
         <div id="noResultsFound" style="display: none">
             <p>No results found.</p>
         </div>
@@ -17,8 +19,8 @@
             <button class="btn badge bg-light text-dark px-3 fw-normal">Lomba</button>
             <button class="btn badge bg-light text-dark px-3 fw-normal">Juara</button>
         </div>
-    </div>
-    <div class="rekomendasi-container mt-4">
+    </div> #}
+    <div class="rekomendasi-container">
         <h5>Baca Juga</h5>
         <div class="row mt-4">
             {%- for news in collections.featured -%}
