@@ -1,3 +1,5 @@
+{# Sidebar Component #}
+
 <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
     {# <div class="search-container field">
         <h5>Pencarian</h5>
@@ -23,6 +25,7 @@
     <div class="rekomendasi-container">
         <h5>Baca Juga</h5>
         <div class="row mt-4">
+            {# Mini Snippet Component #}
             {%- for news in collections.featured -%}
                 {% set title = news.data.title %}
                 {% set image = news.data.image %}

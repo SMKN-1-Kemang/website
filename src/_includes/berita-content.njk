@@ -3,23 +3,35 @@ layout: base.njk
 additionalScript: <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=60dd412979f93f0012fe5540&product=inline-share-buttons' async='async'></script><script src="/script/disqusConfig.js"><noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 ---
 
+{# Berita Content #}
+
 <div class="container mb-5">
     <div class="row mt-5 d-flex">
         <div class="col-12 col-lg-8 mx-auto">
             <div class="content-container py-5 px-4 px-lg-5 border shadow-sm rounded">
+
                 <h2>{{ title }}</h2>
+                
                 <div class="d-flex mt-3">
                     <div class="author d-flex align-items-center me-3">
                         <img src="/assets/icon/ic_author.svg" alt="">
-                        <p class="text-muted">{{ author }}</p>
+                        <p class="text-muted">
+                            {{ author }}
+                        </p>
                     </div>
                     <div class="calendar d-flex align-items-center">
                     <img src="/assets/icon/ic_calendar.svg" alt="">
-                        <p class="text-muted">{{ date | dateFilter }}</p>
+                        <p class="text-muted">
+                            {{ date | dateFilter }}
+                        </p>
                     </div>
                 </div>
                 <div class="thumbnail mt-3">
-                    <img src="{{ image }}" alt="{{ imageAlt }}" class="img-fluid">
+                    <img
+                        src="{{ image }}"
+                        alt="{{ imageAlt }}"
+                        class="img-fluid"
+                    >
                 </div>
                 <div class="content mt-4">
                     <div class="content">
@@ -31,6 +43,7 @@ additionalScript: <script type='text/javascript' src='https://platform-api.share
             <div id="disqus_thread" class="py-5 px-4 px-lg-5 mt-4 border shadow-sm rounded"></div>
         </div>
         <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
+            {# Sidebar Component #}
             {% include 'sidebar.njk' %}
         </div> 
     </div>

@@ -1,18 +1,40 @@
+{# Snippet News Component #}
+
 <div class="card mx-2 mb-5 shadow-sm">
-    <img src="{{ image }}" class="card-img-top" alt="{{ imageAlt }}">
+    <img
+        src="{{ image }}"
+        class="card-img-top"
+        alt="{{ imageAlt }}"
+    >
     <div class="card-body mx-2">
         <h4>
-            <a href="{{ url }}" class="card-title">{{ title }}</a>
+            <a
+                href="{{ url }}"
+                class="card-title"
+            >
+                {{ title }}
+            </a>
         </h4>
-        <p class="card-text mt-3">{{ description }}</p>
+        <p class="card-text mt-3">
+            {{ description }}
+        </p>
         <div class="footer d-flex justify-content-between">
             <div class="author d-flex align-items-center me-3">
-                <img src="/assets/icon/ic_author.svg" alt="{{ imageAlt }}">
-                <small class="text-muted ms-2">{{ author }}</small>
+                <img
+                    src="/assets/icon/ic_author.svg"
+                    alt="author icon">
+                <small class="text-muted ms-2">
+                    {{ author }}
+                </small>
             </div>
             <div class="calendar d-flex align-items-center">
-                <img src="/assets/icon/ic_calendar.svg" alt="{{ imageAlt }}">
-                <small class="text-muted ms-2">{{ date | dateFilter }}</small>
+                <img
+                    src="/assets/icon/ic_calendar.svg"
+                    alt="icon kalender"
+                >
+                <small class="text-muted ms-2">
+                    {{ date | dateFilter }}
+                </small>
             </div>
         </div>
     </div>

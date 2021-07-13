@@ -3,13 +3,18 @@ layout: base.njk
 title: Berita - SMK Negeri 1 Kemang
 ---
 
-<h2 class="text-center judul my-5">Berita</h2>
+{# Halaman Berita #}
+
+<h2 class="text-center judul my-5">
+    Berita
+</h2>
 
 <section class="section-berita mb-5">    
     <div class="container mb-5">
         <div class="row mt-5 d-flex">
             <div class="col-12 col-lg-8">
                 <div class="row">
+                    {# Snippet Component #}
                     {%- for news in collections.news | reverse -%}
                         <div class="col-12 col-lg-6 mb-3">
                             {% set title = news.data.title %}
@@ -25,6 +30,7 @@ title: Berita - SMK Negeri 1 Kemang
             </div>
             <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
                 <div class="container py-5 px-4 px-lg-5 border shadow-sm rounded">
+                    {# Sidebar Component #}
                     {% include 'sidebar.njk' %}
                 </div>
             </div> 
