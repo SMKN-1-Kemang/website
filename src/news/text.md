@@ -7,7 +7,7 @@ category:
   - news
 tags:
   - ada
-image: /assets/upload/mountains-rocks-night-starry-sky-scenery-illustration-macos-6016x6016-3810.jpg
+image: /assets/upload/vector-wallpaper-20071218254635-scaled.jpg
 imageAlt: a
 ---
 a
