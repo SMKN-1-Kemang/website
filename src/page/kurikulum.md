@@ -1,5 +1,5 @@
 ---
-title: Desain permodelan dan informasi bangunan
+title: Kurikulum
 description: none
 date: 2021-05-28
 tags:

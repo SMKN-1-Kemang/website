@@ -1,5 +1,5 @@
 ---
-title: Struktur Organisasi
+title: Struktur organisasi
 description: none
 date: 2021-07-09T14:07:48.026Z
 tags:

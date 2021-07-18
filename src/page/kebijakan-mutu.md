@@ -1,5 +1,5 @@
 ---
-title: Desain permodelan dan informasi bangunan
+title: Kebijakan mutu
 description: none
 date: 2021-05-28
 tags:

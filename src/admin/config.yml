@@ -12,7 +12,7 @@ collections:
       fields: 
         - { label: "Title", name: "title", widget: "string" }
         - { label: "Description", name: "description", widget: "string" }
-        - { label: "Author", name: "author", widget: "string", default: "Administrator" }
+        - { label: "Author", name: "author", widget: "string", default: "Admin" }
         - { label: "Date", name: "date", widget: "datetime" }
         - { label: "Category", name: "category", widget: "string", default: ["news"] }
         - { label: "Tags", name: "tags", widget: "list" }
