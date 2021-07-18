@@ -1,8 +1,8 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "_site/assets/upload"
-public_folder: "/assets/upload"
+media_folder: "_site/upload"
+public_folder: "/upload"
 collections: 
     - name: "news"
       label: "Berita"
