@@ -31,11 +31,13 @@ collections:
         - { label: "Date", name: "date", widget: "datetime" }
         - { label: "Tags", name: "tags", widget: "list", default: ["page"] }
         - { label: "Body", name: "body", widget: "markdown" }
-    # - name: "gallery"
-    #   label: "Galeri"
-    #   folder: "src/gallery"
-    #   create: true
-    #   fields:
-    #     - {label: "Title", name: "title", widget: "string"}
-    #     - {label: "Publish Date", name: "date", widget: "datetime"}
-    #     - {label: "Image", name: "image", widget: "image"}
+    - name: "gallery"
+      label: "Galeri"
+      folder: "src/gallery"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Publish Date", name: "date", widget: "datetime"}
+        - { label: "Tags", name: "tags", widget: "list", default: ["gallery"] }
+        - {label: "Image", name: "image", widget: "image"}
