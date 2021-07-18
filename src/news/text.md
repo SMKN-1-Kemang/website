@@ -1,7 +1,7 @@
 ---
 title: text
 description: ads
-author: Administrator
+author: Admin
 date: 2021-07-18T14:39:41.318Z
 category: news, featured
 tags:

@@ -167,6 +167,18 @@ header .button-container img {
   }
 }
 
+@media screen and (max-width: 1400px) {
+  #mini-snippet small {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #mini-snippet small {
+    font-size: 16px;
+  }
+}
+
 .section-sejarah {
   margin-top: 100px;
 }
