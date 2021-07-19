@@ -2,4 +2,4 @@
 Website Utama SMKN 1 Kemang
 
 
-smknegerisatukemang.sch.id
+https://smknegerisatukemang.sch.id/
