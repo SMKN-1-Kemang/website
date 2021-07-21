@@ -6,6 +6,12 @@ nav {
   min-height: 70px;
 }
 
+nav .redkim {
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #292929;
+}
+
 nav .logo {
   height: 50px;
 }
