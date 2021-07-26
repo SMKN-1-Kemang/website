@@ -10,7 +10,7 @@ nav {
     
     .redkim {
         font-weight: 600;
-        letter-spacing: 5px;
+        letter-spacing: 4px;
         color: #292929;
     }
 
@@ -50,19 +50,28 @@ nav {
     }
 }
 
-.card{
-.card-title {
-    font-weight: 400;
-    text-decoration: none;
-    color: #000000;
+.card {
+    .card-title {
+        font-weight: 400;
+        text-decoration: none;
+        color: #000000;
 
-    &:hover {
-        color: #0d6efd;
+        &:hover {
+            color: #0d6efd;
+        }
     }
-}}
+}
 
 .judul {
     font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #3B82F6 !important;
+    
+    &:hover {
+        background-color: #1D4ED8;
+    }
 }
 
 footer {
@@ -201,6 +210,7 @@ header {
 
     img {
         width: 100%;
+        height: 320px;
         border-radius: 10px;
     }
 
@@ -233,6 +243,8 @@ header {
     margin-top: 100px;
 
     .card {
+        border: solid 1px #3B82F6;
+
         .ic {
             width: 60px;
             height: 60px;
@@ -252,7 +264,7 @@ header {
         }
 
         &:hover {
-            background-color: #0d6efd !important;
+            background-color: #3B82F6 !important;
             transition: all 0.5s;
             
             .svg-one {
@@ -284,11 +296,15 @@ header {
 
 .section-jurusan {
     margin-top: 100px;
-    background-color: #F8F8F8;
+    background-color: #F6FAFF;
 
     .card {
+        border: none;
+        height: 224px;
+        border-radius: 10px;
+
         .card-img-top {
-            height: 70px;
+            height: 80px;
         }  
 
         .card-body {
@@ -296,8 +312,8 @@ header {
         }
     }
 
-    img {
-        height: 100px;
+    .splide {
+        height: 300px;
     }
 }
 

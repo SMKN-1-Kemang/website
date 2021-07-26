@@ -8,7 +8,7 @@ nav {
 
 nav .redkim {
   font-weight: 600;
-  letter-spacing: 5px;
+  letter-spacing: 4px;
   color: #292929;
 }
 
@@ -61,6 +61,14 @@ nav .nav-item .btn {
 
 .judul {
   font-weight: 400;
+}
+
+.btn-primary {
+  background-color: #3B82F6 !important;
+}
+
+.btn-primary:hover {
+  background-color: #1D4ED8;
 }
 
 footer {
@@ -191,6 +199,7 @@ header .button-container img {
 
 .section-sejarah img {
   width: 100%;
+  height: 320px;
   border-radius: 10px;
 }
 
@@ -222,6 +231,10 @@ header .button-container img {
   margin-top: 100px;
 }
 
+.section-vismistu .card {
+  border: solid 1px #3B82F6;
+}
+
 .section-vismistu .card .ic {
   width: 60px;
   height: 60px;
@@ -242,7 +255,7 @@ header .button-container img {
 }
 
 .section-vismistu .card:hover {
-  background-color: #0d6efd !important;
+  background-color: #3B82F6 !important;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   cursor: context-menu;
@@ -272,19 +285,25 @@ header .button-container img {
 
 .section-jurusan {
   margin-top: 100px;
-  background-color: #F8F8F8;
+  background-color: #F6FAFF;
+}
+
+.section-jurusan .card {
+  border: none;
+  height: 224px;
+  border-radius: 10px;
 }
 
 .section-jurusan .card .card-img-top {
-  height: 70px;
+  height: 80px;
 }
 
 .section-jurusan .card .card-body {
   font-size: 18px;
 }
 
-.section-jurusan img {
-  height: 100px;
+.section-jurusan .splide {
+  height: 300px;
 }
 
 .section-berita .card .card-body {
