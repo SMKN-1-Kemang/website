@@ -7,7 +7,8 @@ author: Admin
 date: 2021-07-27T01:01:16.221Z
 category: news, featured
 tags:
-  - a
+  - news
+  - featured
 image: /upload/frame-1.jpg
 imageAlt: Thumbnail
 ---
