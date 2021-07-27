@@ -5,9 +5,9 @@ description: Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian
   Pendidikan...
 author: Admin
 date: 2021-07-27T01:01:16.221Z
-category: news, featured
+category: a
 tags:
-  - featured
+  - a
 image: /upload/frame-1.jpg
 imageAlt: Thumbnail
 ---
@@ -21,4 +21,4 @@ Pada tahun 2021 ini, Direktorat SMK kembali menggelar kegiatan Sertifikasi TOEIC
 
 SMKN 1 Kemang telah mengikutsertakan sebanyak 93 siswa yang untuk mengikuti seleksi VIERA dan yang diumumkan lolos seleksi ada sejumlah 22 siswa. Sebelum para siswa menjalankan ujian bahasa inggis internasional dengan TOEIC, ada periode Pembelajaran yang diberikan oleh tim Fasilitas Sertifikasi TOEIC selama kurang lebih satu bulan. Selama periode Pembelajaran, siswa bisa mengikuti sesi video conference dengan ETS Approved Facilitator—Ibu Hafilia R. Ismanto dan tim melalui Zoom dan live streaming YouTube. Paket materi pembelajaran dan persiapan TOEIC juga diberikan dalam bentuk TOEIC Practice Book-Digital Version agar siswa-siswa kami siap menghadapi ujian.
 
-Pada tanggal 27 Mei 2021, SMKN 1 Kemang melaksanakan Sertifikasi TOEIC bagi siswa kami  yang lolos seleksi. (Ceritakan pengalaman teknis persiapan dan selama pelaksanaan)
+Pada tanggal 27 Mei 2021, SMKN 1 Kemang melaksanakan Sertifikasi TOEIC bagi siswa kami  yang lolos seleksi. Pengalaman teknis
