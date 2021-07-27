@@ -22,3 +22,15 @@ Pada tanggal 27 Mei 2021, SMKN 1 Kemang melaksanakan Sertifikasi TOEIC bagi sisw
 Pelaksanaan TOEIC kali ini berbeda karena diselenggarakan dari rumah masing-masing akibat pandemi covid-19.  Sedikit mengalami kendala karena tidak semua peserta didik dengan mudah dapat mengakses dan mengerjakan dari rumah. Penyelenggaraan TOEIC sangatlah bermanfaat bagi sekolah karena dapat mengetahui kemampuan peserta didik dan juga sertifikat yang didapat bermanfaat digunakan ketika sudah bekerja nantinya. Harapannya TOEIC ini bisa terus diselenggarakan setiap tahun.
 
 Kami para siswa sangat berterimakasih dengan diadakanya test TOEIC ini karena kami bisa mengukur kemampuan bahasa inggris kami dan belajar untuk menjadi lebih baik lagi dalam kemampuan berbahasa kami khususnya bahasa inggris ini.
+
+
+
+### Dokumentasi pelaksanaan:
+
+![dokumentasi 1](/upload/whatsapp-image-2021-07-27-at-09.28.11.jpeg "dokumentasi 1")
+
+![dokumentasi 2](/upload/whatsapp-image-2021-07-27-at-09.28.10.jpeg "dokumentasi 2")
+
+![dokumentasi 3](/upload/whatsapp-image-2021-07-27-at-09.28.09.jpeg "dokumentasi 3")
+
+![dokumentasi 4](/upload/whatsapp-image-2021-07-27-at-09.28.08.jpeg "dokumentasi 4")
