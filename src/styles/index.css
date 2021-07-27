@@ -6,7 +6,7 @@ nav {
   min-height: 70px;
 }
 
-nav .redkim {
+nav .redkim { 
   font-weight: 600;
   letter-spacing: 4px;
   color: #292929;
@@ -371,7 +371,4 @@ header .button-container img {
   margin-bottom: 100px;
 }
 
-.content p img {
-  width: 100%;
-}
 /*# sourceMappingURL=index.css.map */

@@ -9,7 +9,9 @@ additionalScript: <script src="/script/disqusConfig.js"></script><script type='t
     <div class="row mt-5 d-flex">
         <div class="col-12 col-lg-8 mx-auto">
             <div class="content-container py-5 px-4 px-lg-5 border shadow-sm rounded">
-                <div class="thumbnail">
+                
+                
+                <div class="thumbnail border rounded">
                     <img
                         src="{{ image }}"
                         alt="{{ imageAlt }}"
@@ -31,14 +33,12 @@ additionalScript: <script src="/script/disqusConfig.js"></script><script type='t
                         </p>
                     </div>
                 </div>
-                
-                <h1 class="mt-2">{{ title }}</h1>
+
+                <h2 class="mt-3">{{ title }}</h2>
                 
                 
                 <div class="content mt-4">
-                    <div class="content">
-                        {{ content | safe }}
-                    </div>
+                    {{ content | safe }}
                 </div>
             </div>
             <div class="sharethis-inline-share-buttons py-5 px-2 mt-4 border shadow-sm rounded"></div>
