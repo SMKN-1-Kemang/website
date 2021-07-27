@@ -373,5 +373,6 @@ header .button-container img {
 
 .content p img {
   width: 100%;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=index.css.map */
