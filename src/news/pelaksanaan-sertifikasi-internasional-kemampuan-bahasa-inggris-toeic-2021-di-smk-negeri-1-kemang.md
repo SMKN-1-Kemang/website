@@ -9,8 +9,8 @@ description: Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian
   English for International Communication).
 author: Admin
 date: 2021-07-27T01:01:16.221Z
-category:
-  - news
+category: news
+tags: []
 image: /upload/frame-1.jpg
 imageAlt: Thumbnail
 ---
