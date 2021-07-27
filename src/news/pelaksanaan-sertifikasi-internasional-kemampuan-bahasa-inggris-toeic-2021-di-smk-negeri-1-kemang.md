@@ -5,7 +5,7 @@ description: Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian
   Pendidikan...
 author: Admin
 date: 2021-07-27T01:01:16.221Z
-category: a
+category: news, featured
 tags:
   - a
 image: /upload/frame-1.jpg
