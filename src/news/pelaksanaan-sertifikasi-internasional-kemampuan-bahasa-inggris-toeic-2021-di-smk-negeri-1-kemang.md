@@ -13,6 +13,8 @@ imageAlt: Thumbnail
 ---
 #### Dukungan Direktorat SMK Guna Mendorong Mutu dan Daya Saing Siswa SMK Pada Masa Pandemi Covid-19
 
+
+
 Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan dan Kebudayaan RI senantiasa melakukan upaya strategis untuk memastikan lulusan SMK memiliki daya saing yang kuat di dunia kerja. Diantara program nyata yang secara konsisten digelar adalah program sertifikasi internasional kemampuan Bahasa Inggris bagi siswa SMK dengan TOEIC (*Test Of English for International Communication*). Bahkan disaat pandemi Covid-19 melanda Indonesia sejak tahun lalu, salah satu program yang tetap menjadi prioritas untuk dijalankan adalah sertifikasi TOEIC bagi siswa SMK.
 
 Pada tahun 2021 ini, Direktorat SMK kembali menggelar kegiatan Sertifikasi TOEIC bagi siswa SMK yang pendaftarannya dibuka bulan April tahun ini. Berbagai tahapan program telah dilalui mulai dari Sosialisasi, Pendaftaran, dan Seleksi VIERA. Di bulan Juli ini, telah dimulai pelaksanaan tahapan utama yaitu Sertifikasi TOEIC.
