@@ -1,6 +1,5 @@
 ---
-title: Pelaksanaan Sertifikasi Internasional  Kemampuan Bahasa Inggris TOEIC
-  2021 di SMK Negeri 1 Kemang
+title: Sertifikasi Internasional  Kemampuan Bahasa Inggris TOEIC 2021 di SMKN 1 Kemang
 description: Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian
   Pendidikan...
 author: Admin
@@ -9,7 +8,7 @@ category: news, featured
 tags:
   - news
   - featured
-image: /upload/frame-1.jpg
+image: /upload/frame-1-1-.jpg
 imageAlt: Thumbnail
 ---
 Direktorat SMK, Direktorat Jenderal Pendidikan Vokasi, Kementerian Pendidikan dan Kebudayaan RI senantiasa melakukan upaya strategis untuk memastikan lulusan SMK memiliki daya saing yang kuat di dunia kerja. Diantara program nyata yang secara konsisten digelar adalah program sertifikasi internasional kemampuan Bahasa Inggris bagi siswa SMK dengan TOEIC (*Test Of English for International Communication*). Bahkan disaat pandemi Covid-19 melanda Indonesia sejak tahun lalu, salah satu program yang tetap menjadi prioritas untuk dijalankan adalah sertifikasi TOEIC bagi siswa SMK.
