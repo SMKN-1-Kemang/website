@@ -9,10 +9,18 @@ new Splide( '.splide', {
 	},
 	breakpoints: {
 		'768': {
+			padding: {
+				right: '0rem',
+				left: '0rem',
+			},
 			perPage: 1,
 			gap    : '1rem',
 		},
 		'480': {
+			padding: {
+				right: '0rem',
+				left: '0rem',
+			},
 			perPage: 1,
 			gap    : '1rem',
 		},

@@ -1,12 +1,18 @@
 {# Snippet News Component #}
 
-<div class="card mx-2 mb-5 shadow-sm">
+<div class="card mx-3 mb-5 p-4 shadow-sm rounded">
     <img
         src="{{ image }}"
-        class="card-img-top"
+        class="card-img-top border rounded"
         alt="{{ imageAlt }}"
     >
-    <div class="card-body mx-2">
+
+    <div class="card-body p-0">
+        <div class="date-container d-flex align-items-center my-3">
+            <img src="/assets/icon/ic_calendar.svg" alt="" class="me-2" width="16px">
+            <span class="text-muted">{{ date | dateFilter }}</span>
+        </div>
+
         <h4>
             <a
                 href="{{ url }}"
@@ -18,24 +24,5 @@
         <p class="card-text mt-3">
             {{ description }}
         </p>
-        <div class="footer d-flex justify-content-between">
-            <div class="author d-flex align-items-center me-3">
-                <img
-                    src="/assets/icon/ic_author.svg"
-                    alt="author icon">
-                <small class="text-muted ms-2">
-                    {{ author }}
-                </small>
-            </div>
-            <div class="calendar d-flex align-items-center">
-                <img
-                    src="/assets/icon/ic_calendar.svg"
-                    alt="icon kalender"
-                >
-                <small class="text-muted ms-2">
-                    {{ date | dateFilter }}
-                </small>
-            </div>
-        </div>
     </div>
 </div>

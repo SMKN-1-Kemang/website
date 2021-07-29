@@ -50,27 +50,18 @@ nav {
     }
 }
 
-.card {
-    .card-title {
-        font-weight: 400;
-        text-decoration: none;
-        color: #000000;
-
-        &:hover {
-            color: #0d6efd;
-        }
-    }
+.date-container {
+    font-size: 16px;
 }
 
 .judul {
     font-weight: 400;
 }
 
-.btn-primary {
-    background-color: #3B82F6 !important;
-    
-    &:hover {
-        background-color: #1D4ED8;
+.content {
+    p img {
+        border-radius: 10px;
+        width: 100%;
     }
 }
 
@@ -120,8 +111,37 @@ footer {
 
         font-weight: 300;
     }
+
+    margin-top: 100px;
 }
 // end component
+
+// Costumize bootstrap
+.card {
+    .card-title {
+        font-weight: 400;
+        text-decoration: none;
+        color: #000000;
+
+        &:hover {
+            color: #0d6efd;
+        }
+    }
+}
+
+.btn-primary {
+    background-color: #3B82F6 !important;
+    font-size: 16px;
+    
+    &:hover {
+        background-color: #1D4ED8 !important;
+    }
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+// end costumize
 
 // Homepage
 header {
@@ -148,11 +168,11 @@ header {
         width: auto;
 
         .info-btn {
-            height: 40px;
+            padding: 10px 20px;
         }
 
         .profile-btn {
-            height: 40px;
+            padding: 10px 20px;
             
             .svg-alternative {
                 display: none;
@@ -182,25 +202,11 @@ header {
         }
 
         h1 {
-            font-size: 36px;
+            font-size: 48px;
         }
 
         p {
             font-size: 18px;
-        }
-    }
-}
-
-#mini-snippet {
-    
-    @media screen and (max-width: 1400px) {
-        small {
-            font-size: 11px;
-        }
-    }
-    @media screen and (max-width: 1200px) {
-        small {
-            font-size: 16px;
         }
     }
 }
@@ -223,6 +229,10 @@ header {
     button {
         width: 150px;
         height: 45px;
+    }
+
+    selengkapnya-btn {
+        padding: 10px 10px !important;
     }
 
     @media screen and (max-width: $medium) {
@@ -326,20 +336,7 @@ header {
     }
 
     .lainya-btn {
-        margin: 50px 0;
-        width: 160px;
-        height: 40px;
-    }
-}
-
-.author, .calendar {
-    img {
-        width: 14px;
-    }
-    p {
-        margin-left: 8px;
-        margin-bottom: 0;
-        font-size: 14px;
+        padding: 10px 30px;
     }
 }
 // end Homepage
@@ -364,8 +361,8 @@ header {
     }
 }
 
-#map {
-    height: 500px;
+.maps {
+    margin-bottom: -500px;
 }
 // End Contact
 
@@ -384,15 +381,5 @@ header {
         position: absolute;
         left: 0;
         top: 0;
-    }
-}
-
-.section-content {
-    margin-bottom: 100px;
-}
-
-.content {
-    p img {
-        width: 100%;
     }
 }

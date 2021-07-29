@@ -12,26 +12,18 @@ title: Berita - SMK Negeri 1 Kemang
 <section class="section-berita mb-5">    
     <div class="container mb-5">
         <div class="row mt-5 d-flex">
-            <div class="col-12 col-lg-8">
-                <div class="row">
-                    {# Snippet Component #}
-                    {%- for news in collections.news | reverse -%}
-                        <div class="col-12 col-lg-6 mb-3">
-                            {% set title = news.data.title %}
-                            {% set image = news.data.image %}
-                            {% set description = news.data.description %}
-                            {% set author = news.data.author %}
-                            {% set date = news.date %}
-                            {% set url = news.url %}
-                            {% include 'snippet.njk' %}
-                        </div>
-                    {%- endfor -%}
+            {# Snippet Component #}
+            {%- for news in collections.news | reverse -%}
+                <div class="col-12 col-lg-4 mb-3">
+                    {% set title = news.data.title %}
+                    {% set image = news.data.image %}
+                    {% set description = news.data.description %}
+                    {% set author = news.data.author %}
+                    {% set date = news.date %}
+                    {% set url = news.url %}
+                    {% include 'snippet.njk' %}
                 </div>
-            </div>
-            <div class="col-12 col-lg-4 mx-auto mt-4 mt-lg-0">
-                {# Sidebar Component #}
-                {% include 'sidebar.njk' %}
-            </div> 
+            {%- endfor -%}
         </div>
     </div>
 </section>
