@@ -8,6 +8,14 @@ new Splide( '.splide', {
 		left: '5rem',
 	},
 	breakpoints: {
+		'1024': {
+			padding: {
+				right: '0rem',
+				left: '0rem',
+			},
+			perPage: 2,
+			gap    : '1rem',
+		},
 		'768': {
 			padding: {
 				right: '0rem',

@@ -68,6 +68,7 @@ nav {
 footer {
     background-color: #133A9E;
     min-height: 380px;
+    margin-top: 100px;
 
     .logo {
         height: 100px;
@@ -112,7 +113,13 @@ footer {
         font-weight: 300;
     }
 
-    margin-top: 100px;
+    @media screen and (max-width: $medium) {
+        .logo {
+            height: 80px;
+        }
+    }
+
+    
 }
 // end component
 
@@ -198,7 +205,7 @@ header {
         height: 480px;
 
         .content {
-            margin-top: 100px;
+            margin-top: 60px;
         }
 
         h1 {
@@ -343,6 +350,8 @@ header {
 
 // Contact
 .section-contact {
+    margin-bottom: 150px;
+
     .contact-icon {
        height: 80px; 
     }
