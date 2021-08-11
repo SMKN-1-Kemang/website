@@ -10,6 +10,7 @@ date: 2021-08-11T07:48:30.518Z
 category: news, featured
 tags:
   - news
+  - featured
 image: /upload/images.jpeg
 imageAlt: Thumbnail - IHT SMKN 1 Kemang
 ---
