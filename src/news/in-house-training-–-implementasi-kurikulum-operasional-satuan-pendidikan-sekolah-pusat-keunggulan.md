@@ -23,36 +23,26 @@ Dengan diadakannya kegiatan In House Training ini kedepannya SMKN 1 Kemang akan 
 
 ### Dokumentasi Kegiatan
 
-##### Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si
+* Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si
 
 ![Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si](/upload/whatsapp-image-2021-08-11-at-17.14.22.jpeg "Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si")
 
-
-
-##### Penyampaian materi oleh Tatang Rahmat M.Pd
+* Penyampaian materi oleh Tatang Rahmat M.Pd
 
 ![Penyampaian materi oleh Tatang Rahmat M.Pd](/upload/whatsapp-image-2021-08-11-at-17.15.01.jpeg "Penyampaian materi oleh Tatang Rahmat M.Pd")
 
-
-
-##### Foto bersama IHT
+* Foto bersama IHT
 
 ![Foto bersama IHT](/upload/whatsapp-image-2021-08-11-at-17.15.48.jpeg "Foto bersama IHT")
 
-
-
-##### Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd
+* Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd
 
 ![Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd](/upload/whatsapp-image-2021-08-11-at-17.19.02.jpeg "Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd")
 
-
-
-##### Para peserta IHT
+* Para peserta IHT
 
 ![Para peserta IHT](/upload/whatsapp-image-2021-08-11-at-17.20.28.jpeg "Para peserta IHT")
 
-
-
-#####  Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd
+* Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd
 
 ![ Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd](/upload/whatsapp-image-2021-08-11-at-17.21.00.jpeg " Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd")
