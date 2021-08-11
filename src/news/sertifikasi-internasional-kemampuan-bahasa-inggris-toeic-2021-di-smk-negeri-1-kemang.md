@@ -22,16 +22,24 @@ Pelaksanaan TOEIC kali ini berbeda karena diselenggarakan dari rumah masing-masi
 
 Siswa sangat berterimakasih dengan diadakanya test TOEIC ini karena dapat mengukur kemampuan bahasa inggis untuk menjadikan perbaikan kedepannya serta sertifikat yang diterima dapat menjadi pertimbangan dalam memasuki dunia kerja
 
+<br>
+
 ### Dokumentasi pelaksanaan:
-
-
 
 ![dokumentasi 1](/upload/whatsapp-image-2021-07-27-at-09.28.11.jpeg "dokumentasi 1")
 
+<br>
+
 ![dokumentasi 2](/upload/whatsapp-image-2021-07-27-at-09.28.10.jpeg "dokumentasi 2")
+
+<br>
 
 ![dokumentasi 3](/upload/whatsapp-image-2021-07-27-at-09.28.09.jpeg "dokumentasi 3")
 
+<br>
+
 ![dokumentasi 4](/upload/whatsapp-image-2021-07-27-at-09.28.08.jpeg "dokumentasi 4")
+
+<br>
 
 ![dokumentasi 5](/upload/whatsapp-image-2021-07-27-at-09.28.07.jpeg "dokumentasi 5")
