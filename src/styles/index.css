@@ -6,7 +6,7 @@ nav {
   min-height: 70px;
 }
 
-nav .redkim { 
+nav .redkim {
   font-weight: 600;
   letter-spacing: 4px;
   color: #292929;
@@ -49,31 +49,23 @@ nav .nav-item .btn {
   }
 }
 
-.card .card-title {
-  font-weight: 400;
-  text-decoration: none;
-  color: #000000;
-}
-
-.card .card-title:hover {
-  color: #0d6efd;
+.date-container {
+  font-size: 16px;
 }
 
 .judul {
   font-weight: 400;
 }
 
-.btn-primary {
-  background-color: #3B82F6 !important;
-}
-
-.btn-primary:hover {
-  background-color: #1D4ED8;
+.content p img {
+  border-radius: 10px;
+  width: 100%;
 }
 
 footer {
   background-color: #133A9E;
   min-height: 380px;
+  margin-top: 100px;
 }
 
 footer .logo {
@@ -117,6 +109,35 @@ footer .kontak .kontak-item img {
   height: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  footer .logo {
+    height: 80px;
+  }
+}
+
+.card .card-title {
+  font-weight: 400;
+  text-decoration: none;
+  color: #000000;
+}
+
+.card .card-title:hover {
+  color: #0d6efd;
+}
+
+.btn-primary {
+  background-color: #3B82F6 !important;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #1D4ED8 !important;
+}
+
+.rounded {
+  border-radius: 10px !important;
+}
+
 header {
   height: 660px;
   width: 100%;
@@ -143,11 +164,11 @@ header .button-container {
 }
 
 header .button-container .info-btn {
-  height: 40px;
+  padding: 10px 20px;
 }
 
 header .button-container .profile-btn {
-  height: 40px;
+  padding: 10px 20px;
 }
 
 header .button-container .profile-btn .svg-alternative {
@@ -171,25 +192,13 @@ header .button-container img {
     height: 480px;
   }
   header .content {
-    margin-top: 100px;
+    margin-top: 60px;
   }
   header h1 {
-    font-size: 36px;
+    font-size: 48px;
   }
   header p {
     font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  #mini-snippet small {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #mini-snippet small {
-    font-size: 16px;
   }
 }
 
@@ -212,6 +221,10 @@ header .button-container img {
 .section-sejarah button {
   width: 150px;
   height: 45px;
+}
+
+.section-sejarah selengkapnya-btn {
+  padding: 10px 10px !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -312,19 +325,11 @@ header .button-container img {
 }
 
 .section-berita .lainya-btn {
-  margin: 50px 0;
-  width: 160px;
-  height: 40px;
+  padding: 10px 30px;
 }
 
-.author img, .calendar img {
-  width: 14px;
-}
-
-.author p, .calendar p {
-  margin-left: 8px;
-  margin-bottom: 0;
-  font-size: 14px;
+.section-contact {
+  margin-bottom: 150px;
 }
 
 .section-contact .contact-icon {
@@ -344,8 +349,8 @@ header .button-container img {
   font-weight: 400;
 }
 
-#map {
-  height: 500px;
+.maps {
+  margin-bottom: -500px;
 }
 
 .section-galeri {
@@ -365,14 +370,5 @@ header .button-container img {
   position: absolute;
   left: 0;
   top: 0;
-}
-
-.section-content {
-  margin-bottom: 100px;
-}
-
-.content p img {
-  width: 100%;
-  border-radius: 5px;
 }
 /*# sourceMappingURL=index.css.map */
