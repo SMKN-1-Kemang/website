@@ -29,26 +29,38 @@ Dengan diadakannya kegiatan In House Training ini kedepannya SMKN 1 Kemang akan 
 
 ![Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si](/upload/img1.jpg "Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si")
 
+<br>
+
 * Penyampaian materi oleh Tatang Rahmat M.Pd
 
 ![Penyampaian materi oleh Tatang Rahmat M.Pd](/upload/img2.jpg "Penyampaian materi oleh Tatang Rahmat M.Pd")
+
+<br>
 
 * Foto bersama IHT
 
 ![Foto bersama IHT](/upload/img3.jpg "Foto bersama IHT")
 
+<br>
+
 * Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd
 
 ![Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd](/upload/img4.jpg "Penutupan IHT. (Dari kiri ke kanan) Drs. Hasanudin - Drs. Panji Setya Budi, M.Pd - Drs. Dadang Sufyan Syaifullah, M.Pd - Ujang Tohari, S.Pd.,M.M - Suwarno, SH - Tata Karwita, M.Pd")
+
+<br>
 
 * Para peserta IHT
 
 ![Para peserta IHT](/upload/img5.jpg "Para peserta IHT")
 
+<br>
+
 * Sambutan Kepala SMKN 1 Kemang, Ujang Tohari, S.Pd.,M.M
 
 ![ Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd](/upload/img6.jpg " Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd")
 
+<br>
+
 * Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd
 
-  ![](/upload/img7.jpg)
+![Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd](/upload/img7.jpg "Sambutan Pengawas Pembina oleh Drs. Panji Setya Budi, M.Pd")
