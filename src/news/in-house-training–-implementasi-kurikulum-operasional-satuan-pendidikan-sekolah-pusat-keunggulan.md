@@ -1,18 +1,18 @@
 ---
+author: Admin
+imageAlt: Thumbnail - IHT SMKN 1 Kemang
 title: In House Training – Implementasi Kurikulum Operasional Satuan Pendidikan
   Sekolah Pusat Keunggulan
+image: /upload/images.jpeg
 description: Setelah melaksanakan In House Training tentang Implementasi
   Kurikulum Operasional Satuan Pendikan Sekolah Pusat Keunggulan selama 10 Hari
   pada tanggal 29 Juli 2021 – 10 Agustus 2021 pada kegiatan penutupan ini
   dilaksanakan secara luring.
-author: Admin
-date: 2021-08-11T08:04:01.100Z
-category: news, featured
+date: 2021-08-11T09:03:06.535Z
 tags:
   - news
   - featured
-image: /upload/images.jpeg
-imageAlt: Thumbnail - IHT SMKN 1 Kemang
+category: news, featured
 ---
 ### **In House Training – Implementasi Kurikulum Operasional Satuan Pendidikan Sekolah Pusat Keunggulan**
 
