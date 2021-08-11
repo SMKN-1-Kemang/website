@@ -21,9 +21,9 @@ SMK Negeri 1 Kemang diharapkan menjadi sekolah yang unggulan dalam segala bidang
 
 Dengan diadakannya kegiatan In House Training ini kedepannya SMKN 1 Kemang akan menggunakan Kurikulum Operasional Satuan Pendidikan Sekolah Pusat Keunggulan.
 
-### Dokumentasi Kegiatan
-
 <br>
+
+### Dokumentasi Kegiatan
 
 * Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si
 
