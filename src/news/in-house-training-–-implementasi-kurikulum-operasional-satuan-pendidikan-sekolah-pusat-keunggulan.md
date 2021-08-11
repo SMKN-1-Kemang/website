@@ -23,6 +23,8 @@ Dengan diadakannya kegiatan In House Training ini kedepannya SMKN 1 Kemang akan 
 
 ### Dokumentasi Kegiatan
 
+<br>
+
 * Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si
 
 ![Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si](/upload/img1.jpg "Penyampaian materi oleh Drs. Hj Nanang Yusuf Nurdin M.Si")
