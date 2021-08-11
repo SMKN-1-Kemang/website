@@ -1,7 +1,7 @@
 ---
 title: In House Training – Implementasi Kurikulum Operasional Satuan Pendidikan
   Sekolah Pusat Keunggulan
-image: /upload/images.jpeg
+image: /upload/img20210810104532.jpg
 description: Setelah melaksanakan In House Training tentang Implementasi Kurikulum...
 author: Admin
 date: 2021-08-11T09:31:01.120Z
