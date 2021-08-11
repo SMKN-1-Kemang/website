@@ -1,5 +1,6 @@
 ---
-title: In House Training
+title: In House Training– Implementasi Kurikulum Operasional Satuan Pendidikan
+  Sekolah Pusat Keunggulan
 description: Setelah melaksanakan In House Training tentang Implementasi
   Kurikulum Operasional Satuan Pendikan Sekolah Pusat Keunggulan selama 10 Hari
   pada tanggal 29 Juli 2021 – 10 Agustus 2021 pada kegiatan penutupan ini
