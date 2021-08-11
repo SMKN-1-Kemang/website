@@ -11,7 +11,6 @@ description: Setelah melaksanakan In House Training tentang Implementasi
 date: 2021-08-11T09:03:06.535Z
 tags:
   - news
-  - featured
 category: news, featured
 ---
 ### **In House Training – Implementasi Kurikulum Operasional Satuan Pendidikan Sekolah Pusat Keunggulan**
