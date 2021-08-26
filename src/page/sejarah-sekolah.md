@@ -1,8 +1,6 @@
 ---
 title: Sejarah Sekolah
-description: berdiri pada tahun 2016. Awal mula kegiatan belajar mengajar masih
-  menginduk dengan bangunan SMP Negeri 2 Kemang kurang lebih selama 1
-  tahun..........
+description: sejarah singkat sekolah
 date: 2021-08-26T07:02:05.512Z
 tags:
   - page
