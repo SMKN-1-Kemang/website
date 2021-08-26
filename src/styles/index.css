@@ -62,6 +62,15 @@ nav .nav-item .btn {
   width: 100%;
 }
 
+.section-content img {
+  width: 100%;
+}
+
+.section-content p img {
+  border-radius: 10px;
+  width: 100%;
+}
+
 footer {
   background-color: #133A9E;
   min-height: 380px;

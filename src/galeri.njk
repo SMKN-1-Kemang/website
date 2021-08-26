@@ -7,17 +7,17 @@ title: Galeri - SMK Negeri 1 Kemang
 
 <section class="section-galeri">
     <div class="container">
-        <div class="row">
-            {%- for item in collections.gallery -%}          
-                <div class="card col-12 col-lg-3 mb-4 border shadow-sm rounded">
+        <div class="row d-flex justify-content-center">
+            {%- for item in collections.gallery -%}        
+                <div class="card col-12 col-lg-3 mb-4 mx-3 border shadow-sm rounded" data-aos="fade-right">
                     <a href="{{ item.data.image }}">   
-                        <img src="{{ item.data.image }}" alt="" width="100%">
+                        <img src="{{ item.data.image }}" class="py-3" alt="" width="100%">
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">{{ item.data.title }}</h5>
                         <p class="card-text">{{ item.data.date | dateFilter }}</p>
                     </div>
-                </div>            
+                </div> 
             {%- endfor -%}
         </div>
     </div>
