@@ -13,7 +13,9 @@ tag:
 
 
 
-**TEKNIK OTOMOTIF** adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor, mobil, bus, alat berat dan truk, selain hal-hal diatas otomotif juga mempelajari bodi kendaraan baik manufacturing atau memperbaiki bodi mobil kendaraan. Kompetensi keahlian pada bidang keahlian teknik otomotif yaitu (TKRO, TBSM, TBO, TAB, TO, MANAGEMEN OTOMOTIF)
+##### **TEKNIK OTOMOTIF** 
+
+adalah salah satu cabang ilmu teknik mesin yang mempelajari tentang bagaimana merancang, membuat dan mengembangkan alat-alat transportasi darat yang menggunakan mesin, terutama sepeda motor, mobil, bus, alat berat dan truk, selain hal-hal diatas otomotif juga mempelajari bodi kendaraan baik manufacturing atau memperbaiki bodi mobil kendaraan. Kompetensi keahlian pada bidang keahlian teknik otomotif yaitu (TKRO, TBSM, TBO, TAB, TO, MANAGEMEN OTOMOTIF)
 
  
 
