@@ -9,6 +9,8 @@ tags:
 
 ##### **APA ITU JURUSAN TEKNIK KOMPUTER JARINGAN DAN INFORMATIKA**
 
+
+
 Prodi Teknik Jaringan Komputer dan Telekomunikasi yang sebelumnya bernama Teknik Komputer dan Jaringan (TKJ). Prodi ini mengajarkan salah satu kompetensi keahlian dari program keahlian Teknik Komputer dan Informatika.Materi yang didapatkan selama belajar 3 tahun antara lain pengetahuan keterampilan hardware dan software komputer, perancangan dan pembuatan jaringan berbasis kabel dan nirkabel, konfigurasi peralatan jaringan komputer juga server untuk berbagai keperluan.Pada prodi ini siswa-siswi belajar dan mengembangkan pengetahuan dan keterampilan yang terkait dengan bidang IT terutama kompetensi jaringan komputer dan telekomunikasi.
 
 
