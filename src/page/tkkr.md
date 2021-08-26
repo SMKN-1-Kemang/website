@@ -12,7 +12,7 @@ tag:
   - smknegerisatukemang
   - smknegeri1kemang
 ---
-# **Sejarah**
+#### **Sejarah**
 
 Pada awal turunnya SK pembangunan SMK di wilayah Kemang tahun 2016, Pemerintah Kabupaten Bogor mengajukan untuk membuka jurusan Tata Kecantikan Kulit di SMKN 1 Kemang. Menjadi satu-satunya kompetensi keahlian bidang Pariwisata, menjadikan jurusan Tata Kecantikan Kulit pemberi warna tersendiri di SMK Negeri 1 Kemang.
 
@@ -25,8 +25,6 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 ###### **Logo Kompetensi Keahlian Kecantikan & Spa**
 
 ![](/upload/logo-tkkr-new.png "Logo")
-
-
 
 ###### **Tujuan Kompetensi Keahlian:**
 
@@ -46,8 +44,6 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 4. Perawatan Wajah Badan (Body Massage) dan Waxing
 5. Produk Kreatif dan Kewirausahaan
 
-
-
 ###### **Prospect Profesi Lulusan:**
 
 * MakeUp Artist
@@ -58,8 +54,6 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 * Beauty Consultant
 * Beauty Reporter
 * Beauty Blogger/Vlogger
-
-
 
 ###### **Kerja Sama DUDI:**
 
