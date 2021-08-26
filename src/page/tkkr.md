@@ -22,13 +22,13 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 
 <br>
 
-## **Logo Kompetensi Keahlian Kecantikan & Spa**
+###### **Logo Kompetensi Keahlian Kecantikan & Spa**
 
 ![](/upload/logo-tkkr-new.png "Logo")
 
 
 
-# **Tujuan Kompetensi Keahlian:**
+###### **Tujuan Kompetensi Keahlian:**
 
 1. Menyiapkan tenaga pelaksana yang profesional di bidang Tata Kecantikan Kulit dan Rambut  serta memiliki pengetahuan, keterampilan, nilai dan sikap sebagai manusia yang bertanggung jawab dan mencintai profesi pekerjaannya.
 2. Menyiapkan peserta didik agar menjadi manusia produktif, mampu bekerja mandiri, berakhlak     mulia untuk mengisi lowongan pekerjaan yang ada di DU/DI di tingkat regional, nasional dan internasional sebagai tenaga kerja tingkat menengah sesuai dengan kompetensi pada program keahlian Tata Kecantikan Kulit dan Rambut.
@@ -36,11 +36,11 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 4. Menyiapkan peserta didik dengan ilmu pegetahuan, teknologi dan seni, agar mampu mengembangkan diri di kemudian hari baik seara mandiri maupun melalui jenjang pendikan yang lebih tinggi.
 5. Membekali peserta didik dengan kompetensi-kompetensi program keahlian Tata Kecantikan Kulit dan Rambut.
 
- 
+######  
 
-# **Mata Pelajaran Kompetensi Keahlian:**
+###### **Mata Pelajaran Kompetensi Keahlian:**
 
-1. **Pemangkasan dan Pewarnaan Rambut**
+1. Pemangkasan dan Pewarnaan Rambut
 2. Pengeritingan Rambut dan Penataan Sanggul Tradisional dan Kreatif
 3. Perawatan Tangan Kaki, Nail Art dan Rias Wajah Khusus Kreatif
 4. Perawatan Wajah Badan (Body Massage) dan Waxing
@@ -48,7 +48,7 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 
 
 
-# **Prospect Profesi Lulusan:**
+###### **Prospect Profesi Lulusan:**
 
 * MakeUp Artist
 * HairDresser/Hair Stylish
@@ -61,7 +61,7 @@ Kembali saat ini setelah diturunkannya Surat Keputusan dari Direktorat PSMK bahw
 
 
 
-# **Kerja Sama DUDI:**
+###### **Kerja Sama DUDI:**
 
 * Wardah Beauty Cosmetics
 * LaTulipe Cosmetics
