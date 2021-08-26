@@ -1,7 +1,7 @@
 ---
 title: Teknik Otomotif
 description: Teknik Otomotif
-date: 2021-05-28
+date: 2021-08-26T04:16:28.535Z
 tags:
   - page
 tag:
@@ -10,8 +10,6 @@ tag:
   - smknegeri1kemang
 ---
 ![Logo Teknik Otomotif SMK Negeri 1 Kemang](/upload/desain-tanpa-judul-2-.png "Logo Teknik Otomotif SMK Negeri 1 Kemang")
-
-
 
 ##### **TEKNIK OTOMOTIF** 
 
