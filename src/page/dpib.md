@@ -5,13 +5,9 @@ date: 2021-05-28
 tags:
   - page
 ---
-![](/upload/desain-tanpa-judul-4-.png)
-
-
+![](/upload/desain-tanpa-judul-5-.png)
 
 **DESAIN PEMODELAN DAN INFORMASI BANGUNAN** merupakan suatu jurusan di SMK yang spesifik mempelajari konstruksi gedung, sanitasi dan perawatan. Jurusan Desain Pemodelan dan Informasi Bangunan merupakan ilmu yang mempelajari dan mengembangkan pengetahuan yang berkaitan dengan teknik sipil.
-
- 
 
 **KENAPA HARUS PILIH JURUSAN DPIB?**
 
