@@ -8,12 +8,13 @@ tags:
   - page
   - sejarah
 ---
-##### SMK Negeri 1 Kemang 
+##### SMK Negeri 1 Kemang
 
 berdiri pada tahun 2016. Awal mula kegiatan belajar mengajar masih menginduk dengan bangunan SMP Negeri 2 Kemang kurang lebih selama 1 tahun. Berlokasi di Jalan Kemang Limus Manggung RT 004 RW 002 Desa Kemang Kecamatan Kemang Kabupaten Bogor dengan luas 3 hektar, pada awal pendiriannya SMK Negeri 1 Kemang hanya\
-memiliki 3 Kompetensi Keahlian yaitu:\
-1. Teknik Gambar Bangunan\
-2. Teknik Perbaikan Bodi Otomotif\
+memiliki 3 Kompetensi Keahlian yaitu:
+
+1. Teknik Gambar Bangunan
+2. Teknik Perbaikan Bodi Otomotif
 3. Tata Kecantikan Kulit
 
 Dengan 4 rombongan belajar yaitu, 1 Kelas Teknik Gambar Bangunan, 2 Kelas Teknik Perbaikan Bodi Otomotif dan 1 Kelas Tata Kecantikan Kulit dengan jumlah sebanyak 120 peserta didik.
